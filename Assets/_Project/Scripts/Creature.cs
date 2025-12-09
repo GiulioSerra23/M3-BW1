@@ -24,10 +24,4 @@ public class Creature : MonoBehaviour
         _mover2D = GetComponent<TopDownMover2D>();
         _animHandler = GetComponent<AnimationParamHandler>();
     }
-    private void Awake()
-    {
-
-        lifeController = GetComponent<LifeController>();
-        topDownMover2D = GetComponent<TopDownMover2D>();
-    }
 }
