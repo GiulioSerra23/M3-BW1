@@ -7,7 +7,6 @@ public abstract class Creature : MonoBehaviour
 { 
     [SerializeField] protected string _name;
 
-
     protected LifeController _lifeController;
     protected TopDownMover2D _mover2D;
     protected AnimationParamHandler _animHandler;
@@ -15,9 +14,8 @@ public abstract class Creature : MonoBehaviour
     protected bool _isHit;
     protected bool _isDead;
 
-    private void Awake()
+    protected virtual void Awake()
     {
-
         _lifeController = GetComponent<LifeController>();
         _mover2D = GetComponent<TopDownMover2D>();
         _animHandler = GetComponent<AnimationParamHandler>();

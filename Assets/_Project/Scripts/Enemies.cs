@@ -8,9 +8,11 @@ public class Enemies: Creature
 
     protected PlayerController _player;
     protected bool _playerInTrigger;
+    
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         _player = FindObjectOfType<PlayerController>();
     }
 
