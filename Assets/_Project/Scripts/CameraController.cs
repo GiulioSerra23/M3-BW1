@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Transform _playerPos;
+    [SerializeField] private GameObject _player;
     [SerializeField] private float _offset;
     void Start()
     {
@@ -14,6 +14,6 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = new Vector3(_playerPos.position.x, _playerPos.position.y, _offset);
+        transform.position = new Vector3(_player.transform.position.x, _player.transform.position.y, _offset);
     }
 }
