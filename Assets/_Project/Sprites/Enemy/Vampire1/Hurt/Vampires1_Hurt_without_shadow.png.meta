@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6ad1c591d99ab0840a7f7363848f3287
+guid: d377ad27b93a5404da614e2f18627402
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 36
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,337 +97,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_0
+      name: Vampires1_Hurt_without_shadow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 212
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86dce7a60f4a6204394ec56659f191b0
-      internalID: 260602458
+      spriteID: 9ce9b7bcfed23d247819d7cb6aac50be
+      internalID: 36612151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_1
+      name: Vampires1_Hurt_without_shadow_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 212
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f4712aaeb1e366409446f4779cbe285
-      internalID: 785383161
+      spriteID: aba69917fe769784290d12435197105c
+      internalID: -396224134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_2
+      name: Vampires1_Hurt_without_shadow_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 212
+        width: 29
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20deb782ecf1d834f80b7361d25a57f0
-      internalID: -867659166
+      spriteID: 51edf14aedd894f4287bab3b3742700a
+      internalID: 1635443710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_3
+      name: Vampires1_Hurt_without_shadow_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 212
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e391ec08dd0097443af56a0d1e2d19f3
-      internalID: 1844839437
+      spriteID: 506d553b25a606b478f4f536512fb2fb
+      internalID: 116453541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_4
+      name: Vampires1_Hurt_without_shadow_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 148
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0911fa46889774388536c24e8155b3
-      internalID: -1494351139
+      spriteID: b6441d59911d7fb479128d61834283f0
+      internalID: 330905965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_5
+      name: Vampires1_Hurt_without_shadow_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 148
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a509a4bff80becf48b7ed1f81ad408ee
-      internalID: -1563722388
+      spriteID: ee6bbbb2e80c68d49845005b2fd70af2
+      internalID: 1919983631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_6
+      name: Vampires1_Hurt_without_shadow_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 148
+        width: 29
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934bb35614c37e64c9d2202aa950084c
-      internalID: 1397097522
+      spriteID: 09c139a9a3fe2ea4d95ed41c5427570a
+      internalID: -838207946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_7
+      name: Vampires1_Hurt_without_shadow_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 148
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b61d4df232c2a95419a5d6425c761669
-      internalID: -1007959508
+      spriteID: 36a3fff59ae6ee34194cd35993c225c5
+      internalID: 275045538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_8
+      name: Vampires1_Hurt_without_shadow_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 22
+        y: 84
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7976031eaa5ab6a4c87aeeac704d1b97
-      internalID: -1577566454
+      spriteID: bd9e2bf6c21a9f94b98189c491459d3d
+      internalID: -2090686331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_9
+      name: Vampires1_Hurt_without_shadow_9
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 86
+        y: 84
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db6aff5d1c88fcc4696128bc9bfdd613
-      internalID: -553454033
+      spriteID: cad38e5affe13534aad7485da200334e
+      internalID: -1308438461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_10
+      name: Vampires1_Hurt_without_shadow_10
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 84
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18aa6403458a584f83072bdef82cb4d
-      internalID: 2108278100
+      spriteID: 17c44a005ef66e243b3f5a855c079895
+      internalID: -1995398774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_11
+      name: Vampires1_Hurt_without_shadow_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 214
+        y: 84
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68dfe768955314346a839ed734f859ee
-      internalID: 614725354
+      spriteID: d6854f3839c39f24e86435872c74ed38
+      internalID: -584418194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_12
+      name: Vampires1_Hurt_without_shadow_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 20
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1c2ed7fd48b4e54f9cdf1a756d304e5
-      internalID: -596941703
+      spriteID: 4fca0b5a5833840478b62522893e9795
+      internalID: 903037434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_13
+      name: Vampires1_Hurt_without_shadow_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 20
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31bf3654a6a26e54996accc10e819692
-      internalID: -1446795264
+      spriteID: b32966ad16a72454a8d706c53238d242
+      internalID: -2120680001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_14
+      name: Vampires1_Hurt_without_shadow_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 20
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8492739d8437744793f7e236613d445
-      internalID: -198829361
+      spriteID: 22e061c38d9027541be6aae10af7b405
+      internalID: 1904532463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Hurt_with_shadow_15
+      name: Vampires1_Hurt_without_shadow_15
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 20
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40edf06e1d5753d4b8ccabce81d15334
-      internalID: 1731012282
+      spriteID: 4e7c6c35e657f2a4fa6f565926ed28bc
+      internalID: -616874853
       vertices: []
       indices: 
       edges: []
@@ -443,22 +443,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Vampires1_Hurt_with_shadow_0: 260602458
-      Vampires1_Hurt_with_shadow_1: 785383161
-      Vampires1_Hurt_with_shadow_10: 2108278100
-      Vampires1_Hurt_with_shadow_11: 614725354
-      Vampires1_Hurt_with_shadow_12: -596941703
-      Vampires1_Hurt_with_shadow_13: -1446795264
-      Vampires1_Hurt_with_shadow_14: -198829361
-      Vampires1_Hurt_with_shadow_15: 1731012282
-      Vampires1_Hurt_with_shadow_2: -867659166
-      Vampires1_Hurt_with_shadow_3: 1844839437
-      Vampires1_Hurt_with_shadow_4: -1494351139
-      Vampires1_Hurt_with_shadow_5: -1563722388
-      Vampires1_Hurt_with_shadow_6: 1397097522
-      Vampires1_Hurt_with_shadow_7: -1007959508
-      Vampires1_Hurt_with_shadow_8: -1577566454
-      Vampires1_Hurt_with_shadow_9: -553454033
+      Vampires1_Hurt_without_shadow_0: 36612151
+      Vampires1_Hurt_without_shadow_1: -396224134
+      Vampires1_Hurt_without_shadow_10: -1995398774
+      Vampires1_Hurt_without_shadow_11: -584418194
+      Vampires1_Hurt_without_shadow_12: 903037434
+      Vampires1_Hurt_without_shadow_13: -2120680001
+      Vampires1_Hurt_without_shadow_14: 1904532463
+      Vampires1_Hurt_without_shadow_15: -616874853
+      Vampires1_Hurt_without_shadow_2: 1635443710
+      Vampires1_Hurt_without_shadow_3: 116453541
+      Vampires1_Hurt_without_shadow_4: 330905965
+      Vampires1_Hurt_without_shadow_5: 1919983631
+      Vampires1_Hurt_without_shadow_6: -838207946
+      Vampires1_Hurt_without_shadow_7: 275045538
+      Vampires1_Hurt_without_shadow_8: -2090686331
+      Vampires1_Hurt_without_shadow_9: -1308438461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

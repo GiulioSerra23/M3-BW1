@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1d406c42fb5f8e2499a722525b25dbce
+guid: 675e22b28f0f42d438794614f2240f24
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 36
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,337 +97,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_0
+      name: Vampires1_Idle_without_shadow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 212
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb774401d860dcc43952c465d706a2fa
-      internalID: 1082326092
+      spriteID: 444a73afd89bbfa44a15f2ac22041311
+      internalID: -1531165905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_1
+      name: Vampires1_Idle_without_shadow_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 212
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363cce98a6cfbf442bc0884c06106827
-      internalID: -1927043297
+      spriteID: 45cecfb096aed504f87fb41ebe17c6c0
+      internalID: 1118036837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_2
+      name: Vampires1_Idle_without_shadow_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 149
+        y: 212
+        width: 21
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2442590992cdf544d80fc9b50c17cc2c
-      internalID: -1623206958
+      spriteID: da63f1626d6a20c48ad5955b60211403
+      internalID: -749196167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_3
+      name: Vampires1_Idle_without_shadow_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 212
+        y: 212
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba458552ef0ca945a2482cf23a1f13d
-      internalID: 1153344652
+      spriteID: 7cd5b036ce3a28541815a2e42613385c
+      internalID: -1495911456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_4
+      name: Vampires1_Idle_without_shadow_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 148
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a7f616cb59eca449556e81326e31d7
-      internalID: 84133633
+      spriteID: 3cf6c8c6633183b4095301aadd0f0c30
+      internalID: -1380614412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_5
+      name: Vampires1_Idle_without_shadow_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 148
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c48914b6b428ad43b8f56da550849b5
-      internalID: 352796220
+      spriteID: eedb4bcb8bfe9f8459ad81234e6a6019
+      internalID: 1979116803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_6
+      name: Vampires1_Idle_without_shadow_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 149
+        y: 148
+        width: 21
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8812d7092de1f347b49c3951291e149
-      internalID: 432916249
+      spriteID: d7e914c27e2c7a84796fba282262d3d0
+      internalID: 1448434527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_7
+      name: Vampires1_Idle_without_shadow_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 212
+        y: 148
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c8d69d7316f0b47abc3c521bf59066
-      internalID: 91307326
+      spriteID: b7a7399e59d213c4cb7a79b849a2f0dc
+      internalID: 43910290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_8
+      name: Vampires1_Idle_without_shadow_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 22
+        y: 84
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca4bcf79ecfd434481b49dd247edc24
-      internalID: -414450324
+      spriteID: 737085792b393bd43b1b8630a1ca281a
+      internalID: 894250116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_9
+      name: Vampires1_Idle_without_shadow_9
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 86
+        y: 84
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1c649d714ef9b541a7f3cfb447ff3b2
-      internalID: -603198538
+      spriteID: 7ce4c838517d62c49b8f4acbb23427f4
+      internalID: -830110232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_10
+      name: Vampires1_Idle_without_shadow_10
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 84
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09b78ddff31bf7e4b93d0b10fae53b5e
-      internalID: -1452304393
+      spriteID: 123dbbc8dc94c18449e34da36d22f155
+      internalID: 1022575794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_11
+      name: Vampires1_Idle_without_shadow_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 214
+        y: 84
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 380d4b9402ca8e447a0878d11e6fd7ba
-      internalID: 1276454829
+      spriteID: 860d6c558443667409716d425527e86a
+      internalID: -74526971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_12
+      name: Vampires1_Idle_without_shadow_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 20
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72695f765fa218f46b36f2d938924a81
-      internalID: 555925507
+      spriteID: e34476316b99cf44693007c97cdd5dd4
+      internalID: -1616879671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_13
+      name: Vampires1_Idle_without_shadow_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 87
+        y: 20
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e272aead203104ca2580251c7d1997
-      internalID: -1399157077
+      spriteID: 290788ccc72d5ee47ab99e22abe93a2c
+      internalID: -644227745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_14
+      name: Vampires1_Idle_without_shadow_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 20
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6531aa3c9a4dc9646b20a8ac52bc34fd
-      internalID: -1473729220
+      spriteID: 8236dbb955e77b34bb3bb239a10abe2f
+      internalID: 1416525184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampires1_Idle_with_shadow_15
+      name: Vampires1_Idle_without_shadow_15
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 213
+        y: 20
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dee30d483f1a5f47bf5b22f10afef7b
-      internalID: -406871874
+      spriteID: 83c832bc142e9a54490d327f1824d602
+      internalID: 654544796
       vertices: []
       indices: 
       edges: []
@@ -443,22 +443,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Vampires1_Idle_with_shadow_0: 1082326092
-      Vampires1_Idle_with_shadow_1: -1927043297
-      Vampires1_Idle_with_shadow_10: -1452304393
-      Vampires1_Idle_with_shadow_11: 1276454829
-      Vampires1_Idle_with_shadow_12: 555925507
-      Vampires1_Idle_with_shadow_13: -1399157077
-      Vampires1_Idle_with_shadow_14: -1473729220
-      Vampires1_Idle_with_shadow_15: -406871874
-      Vampires1_Idle_with_shadow_2: -1623206958
-      Vampires1_Idle_with_shadow_3: 1153344652
-      Vampires1_Idle_with_shadow_4: 84133633
-      Vampires1_Idle_with_shadow_5: 352796220
-      Vampires1_Idle_with_shadow_6: 432916249
-      Vampires1_Idle_with_shadow_7: 91307326
-      Vampires1_Idle_with_shadow_8: -414450324
-      Vampires1_Idle_with_shadow_9: -603198538
+      Vampires1_Idle_without_shadow_0: -1531165905
+      Vampires1_Idle_without_shadow_1: 1118036837
+      Vampires1_Idle_without_shadow_10: 1022575794
+      Vampires1_Idle_without_shadow_11: -74526971
+      Vampires1_Idle_without_shadow_12: -1616879671
+      Vampires1_Idle_without_shadow_13: -644227745
+      Vampires1_Idle_without_shadow_14: 1416525184
+      Vampires1_Idle_without_shadow_15: 654544796
+      Vampires1_Idle_without_shadow_2: -749196167
+      Vampires1_Idle_without_shadow_3: -1495911456
+      Vampires1_Idle_without_shadow_4: -1380614412
+      Vampires1_Idle_without_shadow_5: 1979116803
+      Vampires1_Idle_without_shadow_6: 1448434527
+      Vampires1_Idle_without_shadow_7: 43910290
+      Vampires1_Idle_without_shadow_8: 894250116
+      Vampires1_Idle_without_shadow_9: -830110232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

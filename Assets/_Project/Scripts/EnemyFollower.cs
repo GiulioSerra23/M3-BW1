@@ -5,19 +5,17 @@ using UnityEngine;
 
 public class EnemyFollower : Enemies
 {
-    protected PlayerController _player;
-   
-
-    private void Awake()
-    {
-        _player = FindObjectOfType<PlayerController>();
-    }
-
     public override void EnemyMovement()
     {
-        if (_player == null) return ;
-    
-        transform.position = Vector2.MoveTowards(transform.position, _player.transform.position, _mover2D.Speed * Time.fixedDeltaTime);
-   
+        if (_player == null) return;
+
+        Vector2 currentPos = transform.position;
+        Vector2 targetPos = _player.transform.position;
+
+        Vector2 direction = (targetPos - currentPos);
+
+        Vector2 NewPos = Vector2.MoveTowards(currentPos, targetPos, _speed * Time.deltaTime);
+
+        transform.position = NewPos;
     }
 }
