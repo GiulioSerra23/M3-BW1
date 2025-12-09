@@ -3,17 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Creature : MonoBehaviour
-{
-    private string Name;
-    private LifeController lifeController;
-    private TopDownMover2D topDownMover2D;
+{ 
+    [SerializeField] protected string _name;
 
+    protected LifeController _lifeController;
+    protected TopDownMover2D _mover2D;
+    protected AnimationParamHandler _animHandler;
 
-    public Creature(string Name, LifeController lifeController, TopDownMover2D topDownMover2D)
+    public Creature(string name, LifeController lifeController, TopDownMover2D mover2D, AnimationParamHandler animHandler)
     {
-        this.Name = Name;
-        this.lifeController = lifeController;
-        this.topDownMover2D = topDownMover2D;
+        _name = name;
+        _lifeController = lifeController;
+        _mover2D = mover2D;
+        _animHandler = animHandler;
+    }
+
+    private void Awake()
+    {
+        _lifeController = GetComponent<LifeController>();
+        _mover2D = GetComponent<TopDownMover2D>();
+        _animHandler = GetComponent<AnimationParamHandler>();
     }
     private void Awake()
     {
