@@ -8,9 +8,9 @@ public class AnimationParamHandler : MonoBehaviour
     [SerializeField] private string _vSpeedName = "vSpeed";
     [SerializeField] private string _isMoving = "isMoving";
     [SerializeField] private string _isDeadName = "isDead";
-    [SerializeField] private string _isHasWeaponName = "hasWeapon";
+    //[SerializeField] private string _isHasWeaponName = "hasWeapon";
     [SerializeField] private string _isHitName = "isHit";
-    [SerializeField] private string _isAttackingName = "isAttacking";
+    //[SerializeField] private string _isAttackingName = "isAttacking";
 
     private Animator _anim;
 
@@ -40,22 +40,22 @@ public class AnimationParamHandler : MonoBehaviour
         _anim.SetBool(_isMoving, isMoving);
     }
 
-    public void SetIsDead(bool isDead)
+    public void SetIsDead()
     {
-        _anim.SetBool(_isDeadName, isDead);
+        _anim.SetTrigger(_isDeadName);
     }
-    public void SetHasWeapon(bool hasWeapon)
-    {
-        _anim.SetBool(_isHasWeaponName, hasWeapon);
-    }
+    //public void SetHasWeapon(bool hasWeapon)
+    //{
+    //    _anim.SetBool(_isHasWeaponName, hasWeapon);
+    //}
 
     public void SetIsHit()
     {
         _anim.SetTrigger(_isHitName);
     }
 
-    public void SetIsAttacking()
-    {
-        _anim.SetTrigger(_isAttackingName);
-    }
+    //public void SetIsAttacking()
+    //{
+    //    _anim.SetTrigger(_isAttackingName);
+    //}
 }
