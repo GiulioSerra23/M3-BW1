@@ -9,11 +9,6 @@ public class PlayerController : Creature
 
     public Vector2 Direction { get; private set; }
 
-    public PlayerController(string name, LifeController lifeController, TopDownMover2D mover2D, AnimationParamHandler animHandler) : base(name, lifeController, mover2D, animHandler)
-    {
-        _name = name;
-    }
-
     private void Update()
     {
         _horizontal = Input.GetAxisRaw("Horizontal");
@@ -22,14 +17,24 @@ public class PlayerController : Creature
         Direction = new Vector2(_horizontal, _vertical);
         _mover2D.SetAndNormalizeInput(Direction);
 
-        //if (_horizontal != 0  || _vertical != 0)
-        //{
-        //    _animHandler.SetDirectionalSpeed(Direction);
-        //    _animHandler.SetIsMoving(true);
-        //}
-        //else
-        //{
-        //    _animHandler.SetIsMoving(false);
-        //}
+        if (_horizontal != 0 || _vertical != 0)
+        {
+            _animHandler.SetDirectionalSpeed(Direction);
+            _animHandler.SetIsMoving(true);
+        }
+        else
+        {
+            _animHandler.SetIsMoving(false);
+        }
+    }
+
+    public override void Hit()
+    {
+       base.Hit();
+    }
+
+    public override void Die()
+    {
+        base.Die();
     }
 }

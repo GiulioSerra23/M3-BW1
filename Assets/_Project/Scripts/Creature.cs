@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Creature : MonoBehaviour
 
+public abstract class Creature : MonoBehaviour
 { 
     [SerializeField] protected string _name;
 
@@ -12,6 +13,8 @@ public class Creature : MonoBehaviour
     protected TopDownMover2D _mover2D;
     protected AnimationParamHandler _animHandler;
 
+    protected bool _isHit;
+    protected bool _isDead;
 
     private void Awake()
     {
@@ -19,5 +22,21 @@ public class Creature : MonoBehaviour
         _lifeController = GetComponent<LifeController>();
         _mover2D = GetComponent<TopDownMover2D>();
         _animHandler = GetComponent<AnimationParamHandler>();
+    }
+
+    public virtual void Hit()
+    {
+        _isHit = true;
+        _animHandler.SetIsHit();
+    }
+
+    public virtual void Die()
+    {
+        if (_lifeController.Hp <= 0)
+        {
+            _isDead = true;
+            _animHandler.SetIsDead();
+            GetComponent<Collider2D>().enabled = false;
+        }
     }
 }
