@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Creature : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private string Name;
+    private LifeController lifeController;
+    private TopDownMover2D topDownMover2D;
 
-    // Update is called once per frame
-    void Update()
+
+    public Creature(string Name, LifeController lifeController, TopDownMover2D topDownMover2D)
     {
-        
+        this.Name = Name;
+        this.lifeController = lifeController;
+        this.topDownMover2D = topDownMover2D;
+    }
+    private void Awake()
+    {
+
+        lifeController = GetComponent<LifeController>();
+        topDownMover2D = GetComponent<TopDownMover2D>();
     }
 }
