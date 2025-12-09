@@ -5,9 +5,10 @@ using UnityEngine;
 public class TopDownMover2D : MonoBehaviour
 {
     [SerializeField] private float _speed = 4f;
-
+    public float Speed { get => _speed; set => _speed = value; }
     private Rigidbody2D _rb;
     private Vector2 _input;
+    
 
     private void Awake()
     {
