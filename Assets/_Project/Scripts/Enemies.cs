@@ -7,6 +7,7 @@ public class Enemies: Creature
     [SerializeField] protected float _speed;
 
     protected PlayerController _player;
+    protected EnemyManager _enemyManager;
     protected bool _playerInTrigger;
     
 
@@ -14,6 +15,8 @@ public class Enemies: Creature
     {
         base.Awake();
         _player = FindObjectOfType<PlayerController>();
+        _enemyManager = FindObjectOfType<EnemyManager>();
+        _enemyManager.AddEnemy(this);
     }
 
     public virtual void EnemyMovement()
@@ -46,5 +49,11 @@ public class Enemies: Creature
                 _playerInTrigger = true;
             }
         }
+    }
+
+    public override void Die()
+    {
+        base.Die();
+        _enemyManager.RemoveEnemy(this);
     }
 }
