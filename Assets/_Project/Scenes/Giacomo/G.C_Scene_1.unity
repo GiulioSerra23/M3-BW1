@@ -201,6 +201,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3251282818832659986, guid: 4f9cb0dde22f9744693565797a2665a4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 223154833}
+    - targetCorrespondingSourceObject: {fileID: 3251282818832659986, guid: 4f9cb0dde22f9744693565797a2665a4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 223154840}
   m_SourcePrefab: {fileID: 100100000, guid: 4f9cb0dde22f9744693565797a2665a4, type: 3}
 --- !u!1 &223154825 stripped
 GameObject:
@@ -222,6 +225,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c38c3eeb91e7004b9536d27d2b5bdbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: 
+  fireRate: 0.8
+  range: 10
+  projectilePrefab: {fileID: 7765206108980760438, guid: 12f04b1cc6ad60349b5fa82291c1e68d, type: 3}
+--- !u!114 &223154840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223154825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae49fa1f3b1b2fe4bb82519e5a079fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponName: 
