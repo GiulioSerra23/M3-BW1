@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 public abstract class WeaponBase : MonoBehaviour
 {
-    protected string weaponName;
-    protected float fireRate;
-    protected float range;
+    [SerializeField] protected string weaponName;
+    [SerializeField] protected float fireRate;
+    [SerializeField] protected float range;
     protected float lastShot;
-    [SerializeField] protected GameObject projectilePrefab;
+    [SerializeField] protected ProjectileBase projectilePrefab;
 
     protected abstract void Fire();
 
