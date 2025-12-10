@@ -30,11 +30,11 @@ public class PlayerController : Creature
         }
     }
 
-    public override void Hit()
+    public override void Hit(int damage)
     {
         if (_isDead) return;
 
-        base.Hit();
+        base.Hit(damage);
         _shakeOnHit.ShakeOnHit();
     }
 

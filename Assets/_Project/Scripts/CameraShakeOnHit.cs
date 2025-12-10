@@ -19,7 +19,7 @@ public class CameraShakeOnHit : MonoBehaviour
             float _shakeX = Random.Range(-1, 1) * _shakeMagnitude;
             float _shakeY = Random.Range(-1, 1) * _shakeMagnitude;
 
-            transform.localPosition = new Vector3(_cameraPos.x + _shakeX, _cameraPos.y + _shakeY, _cameraPos.z);
+            transform.localPosition = _cameraPos + new Vector3(_shakeX, _shakeY, 0);
 
             _timer -= Time.deltaTime;
         }

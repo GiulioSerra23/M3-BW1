@@ -21,8 +21,10 @@ public abstract class Creature : MonoBehaviour
         _animHandler = GetComponent<AnimationParamHandler>();
     }
 
-    public virtual void Hit()
+    public virtual void Hit(int damage)
     {
+        _lifeController.TakeDamage(damage);
+
         if (!_isDead)
         {
             _isHit = true;
@@ -32,12 +34,8 @@ public abstract class Creature : MonoBehaviour
 
     public virtual void Die()
     {
-        if (_lifeController.Hp <= 0)
-        {
-            _isDead = true;
-            _animHandler.SetIsDead();
-            GetComponent<Collider2D>().enabled = false;
-            Destroy(gameObject);
-        }
+        _isDead = true;
+        _animHandler.SetIsDead();
+        GetComponent<Collider2D>().enabled = false;
     }
 }

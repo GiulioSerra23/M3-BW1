@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyFollower : Enemy
 {
-    public override void EnemyMovement()
+    protected override void EnemyMovement()
     {
         if (_player != null && !_isDead)
         {
@@ -30,21 +30,13 @@ public class EnemyFollower : Enemy
         }
     }
 
-    private void DieOnCollision()
-    {
-        _isDead = true;
-        _animHandler.SetIsDead();
-        _enemyManager.RemoveEnemy(this);
-        GetComponent<Collider2D>().enabled = false;
-    }
-
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
         base.OnCollisionEnter2D(collision);
 
         if (collision.collider.TryGetComponent<PlayerController>(out var player))
         {
-            DieOnCollision();
+            Die();
         }
     }
 }
