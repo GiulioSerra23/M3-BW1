@@ -3,21 +3,40 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyFollower : Enemies
+public class EnemyFollower : Enemy
 {
-    protected PlayerController _player;
-   
-
-    private void Awake()
+    protected override void EnemyMovement()
     {
-        _player = FindObjectOfType<PlayerController>();
+        if (_player != null && !_isDead)
+        {
+            Vector2 currentPos = transform.position;
+            Vector2 targetPos = _player.transform.position;
+
+            Vector2 direction = targetPos - currentPos;
+
+            Vector2 NewPos = Vector2.MoveTowards(currentPos, targetPos, _speed * Time.deltaTime);
+
+            transform.position = NewPos;
+
+            if (direction.x != 0 || direction.y != 0)
+            {
+                _animHandler.SetDirectionalSpeed(direction);
+                _animHandler.SetIsMoving(true);
+            }
+            else
+            {
+                _animHandler.SetIsMoving(false);
+            }
+        }
     }
 
-    public override void EnemyMovement()
+    protected override void OnCollisionEnter2D(Collision2D collision)
     {
-        if (_player == null) return ;
-    
-        transform.position = Vector2.MoveTowards(transform.position, _player.transform.position, _mover2D.Speed * Time.fixedDeltaTime);
-   
+        base.OnCollisionEnter2D(collision);
+
+        if (collision.collider.TryGetComponent<PlayerController>(out var player))
+        {
+            Die();
+        }
     }
 }

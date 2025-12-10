@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : Creature
 {
+    [SerializeField] private CameraShakeOnHit _shakeOnHit;
+
     private float _horizontal;
     private float _vertical;
 
@@ -28,9 +30,12 @@ public class PlayerController : Creature
         }
     }
 
-    public override void Hit()
+    public override void Hit(int damage)
     {
-       base.Hit();
+        if (_isDead) return;
+
+        base.Hit(damage);
+        _shakeOnHit.ShakeOnHit();
     }
 
     public override void Die()

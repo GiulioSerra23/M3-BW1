@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 1ecfa7dbe658afd4d873ccb55831277c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 212
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446e8c3e2b9486844a5bc53627ee132c
+      internalID: 1328025040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 212
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915ee01a874b6754799c32edfbc05ae2
+      internalID: 304284041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 212
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c971916b58bc594eb601e4bf0b04414
+      internalID: 1446412184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50bdf4becef77b4f94d330fe1c2688e
+      internalID: 1677459989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 148
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b963251ca50bc26448ca1473508b8b2d
+      internalID: -1237311484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 148
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e542b32682bff45b618a51379965c9
+      internalID: -163473741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 148
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde17467683162942bdd6b31bea8afbd
+      internalID: -1136445076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 148
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44fc2765fb392b48829800985bd2f6e
+      internalID: -2095779862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 84
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.29040724, y: 0.0025869298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad0b78740211aa4295ea2bbc280ef30
+      internalID: -1105882206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 84
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.28541645, y: 0.004989624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0dcff5684b43745b0e3df83ef7c1d3
+      internalID: 1669317816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 84
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.2854162, y: 0.0025869298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f678e264d47d74542849cc339692f524
+      internalID: 1911610477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 84
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.29040638, y: 0.0026864272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd038a57516e69439a1fb6c96194cdd
+      internalID: 394072308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fea5ed0e84f7f94d8edcc326b37d8a0
+      internalID: 52949456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 20
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.71, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2361d89aee7f2044998da97425c9f2d5
+      internalID: -1576881669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 20
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.7083108, y: -0.0023741545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10f220af7eabf54e8105a65bfce0bdd
+      internalID: -363279571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Idle_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.71517783, y: 0.0024649547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11186473b5365554db9fc7605a2b2517
+      internalID: 1360567922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vampires3_Idle_without_shadow_0: 1328025040
+      Vampires3_Idle_without_shadow_1: 304284041
+      Vampires3_Idle_without_shadow_10: 1911610477
+      Vampires3_Idle_without_shadow_11: 394072308
+      Vampires3_Idle_without_shadow_12: 52949456
+      Vampires3_Idle_without_shadow_13: -1576881669
+      Vampires3_Idle_without_shadow_14: -363279571
+      Vampires3_Idle_without_shadow_15: 1360567922
+      Vampires3_Idle_without_shadow_2: 1446412184
+      Vampires3_Idle_without_shadow_3: 1677459989
+      Vampires3_Idle_without_shadow_4: -1237311484
+      Vampires3_Idle_without_shadow_5: -163473741
+      Vampires3_Idle_without_shadow_6: -1136445076
+      Vampires3_Idle_without_shadow_7: -2095779862
+      Vampires3_Idle_without_shadow_8: -1105882206
+      Vampires3_Idle_without_shadow_9: 1669317816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

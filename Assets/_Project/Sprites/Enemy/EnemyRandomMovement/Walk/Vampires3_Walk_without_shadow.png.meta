@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 96b3b6c85e57f87478265f27cbefb93c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 212
+        width: 39
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0874264a36cdac2459f7566930ed03e7
+      internalID: -592679319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 211
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2566f52629ae2c409e52c4e3f562888
+      internalID: -2096702679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 212
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d783d35c549b47a5f7707de837c2c
+      internalID: 768679117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 212
+        width: 39
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc1df43c79398147b7fa95af1e392c0
+      internalID: 152035778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 211
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48736de169b0ed418c5b9000921b670
+      internalID: 2103335986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 212
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d656878aced3f2f4c98443ac521b1ef4
+      internalID: -1663819204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 148
+        width: 39
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49df9f4fc6dc91547bfe30db3e4e5684
+      internalID: 129434896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 147
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3168a32ce0bdfd442bf5eb553993ad04
+      internalID: 2064465464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 148
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3d0c555d0455a4982f8766b9fd099b
+      internalID: 887661189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 148
+        width: 39
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a66c38665a7df14ba660adf6a8bc7c3
+      internalID: 1029688390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 147
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca3bbc793c2f814ba7e1866845f8c0a
+      internalID: 144396584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 148
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9296bbd1fc2810c44a466737975ace41
+      internalID: -2039932473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 84
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.28711095, y: 0.0024648814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5e4ef80aef1484d808a3e31410ecdc
+      internalID: -1899424091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 83
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.2527741, y: 0.033152614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef519459fda09ed4386b0a4f15072126
+      internalID: -2011489537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 84
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.28939983, y: 0.0047474615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080100d366abf57429c0f30bbb7e7096
+      internalID: -536805705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 84
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.28711048, y: -0.00000029343826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b97ffcf8f47fed4e9bdb135c0ee6534
+      internalID: -1925929963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 83
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.34433857, y: 0.041993503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c51528b5641504459ffabae99422c2a
+      internalID: 2132710350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 84
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.31458065, y: 0.0047474615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13e8b7c5fa45fb4da4c299b5a18109d
+      internalID: 15803224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.70354813, y: 0.0016606405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf1db82f5c1104d924ecfe884d0598
+      internalID: 1102732569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 19
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.74980897, y: 0.03573286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9620af50aae9a4b9b0fb02712ac5e4
+      internalID: -685095784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 20
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.71280015, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a45df70549c75842b0eb19752c83337
+      internalID: 939945503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.6989223, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c48861e163223046b12727290fd8f19
+      internalID: 85732120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 19
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.6619143, y: 0.03871056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eeec915433a914db3f192ae5a47c85
+      internalID: 2033623585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Walk_without_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 20
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.71584755, y: 0.00016170078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b64061e8279059449d8e19e3cea0983
+      internalID: 946369815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vampires3_Walk_without_shadow_0: -592679319
+      Vampires3_Walk_without_shadow_1: -2096702679
+      Vampires3_Walk_without_shadow_10: 144396584
+      Vampires3_Walk_without_shadow_11: -2039932473
+      Vampires3_Walk_without_shadow_12: -1899424091
+      Vampires3_Walk_without_shadow_13: -2011489537
+      Vampires3_Walk_without_shadow_14: -536805705
+      Vampires3_Walk_without_shadow_15: -1925929963
+      Vampires3_Walk_without_shadow_16: 2132710350
+      Vampires3_Walk_without_shadow_17: 15803224
+      Vampires3_Walk_without_shadow_18: 1102732569
+      Vampires3_Walk_without_shadow_19: -685095784
+      Vampires3_Walk_without_shadow_2: 768679117
+      Vampires3_Walk_without_shadow_20: 939945503
+      Vampires3_Walk_without_shadow_21: 85732120
+      Vampires3_Walk_without_shadow_22: 2033623585
+      Vampires3_Walk_without_shadow_23: 946369815
+      Vampires3_Walk_without_shadow_3: 152035778
+      Vampires3_Walk_without_shadow_4: 2103335986
+      Vampires3_Walk_without_shadow_5: -1663819204
+      Vampires3_Walk_without_shadow_6: 129434896
+      Vampires3_Walk_without_shadow_7: 2064465464
+      Vampires3_Walk_without_shadow_8: 887661189
+      Vampires3_Walk_without_shadow_9: 1029688390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
