@@ -23,8 +23,11 @@ public abstract class Creature : MonoBehaviour
 
     public virtual void Hit()
     {
-        _isHit = true;
-        _animHandler.SetIsHit();
+        if (!_isDead)
+        {
+            _isHit = true;
+            _animHandler.SetIsHit();
+        }
     }
 
     public virtual void Die()
@@ -34,6 +37,7 @@ public abstract class Creature : MonoBehaviour
             _isDead = true;
             _animHandler.SetIsDead();
             GetComponent<Collider2D>().enabled = false;
+            Destroy(gameObject);
         }
     }
 }

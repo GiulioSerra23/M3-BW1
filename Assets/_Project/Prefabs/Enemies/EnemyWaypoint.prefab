@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7392849909688916599}
   - component: {fileID: 2713161239583092466}
   - component: {fileID: 2080859753425684962}
+  - component: {fileID: 4828723535545912403}
   m_Layer: 6
   m_Name: Graphics
   m_TagString: Untagged
@@ -106,6 +107,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4828723535545912403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335836317649950580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e47dc11526b504b8e72d21080a952a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2543525338518536884
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,6 +163,7 @@ GameObject:
   - component: {fileID: 6960706300954763212}
   - component: {fileID: 5270833125823897795}
   - component: {fileID: 7688083919270163538}
+  - component: {fileID: 6936024273280729999}
   m_Layer: 6
   m_Name: EnemyWaypoint
   m_TagString: Enemy
@@ -275,3 +289,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHp: 100
   _currentHp: 30
+--- !u!114 &6936024273280729999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699493896678938658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e47dc11526b504b8e72d21080a952a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
