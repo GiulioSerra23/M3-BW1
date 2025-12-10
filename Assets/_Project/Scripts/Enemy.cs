@@ -20,10 +20,17 @@ public class Enemy: Creature
         _enemyManager.AddEnemy(this);
     }
 
-    public virtual void EnemyMovement()
+    protected virtual void EnemyMovement()
     {
 
     }
+
+    public override void Die()
+    {
+        base.Die();
+        _enemyManager.RemoveEnemy(this);
+    }
+
 
     private void FixedUpdate()
     {
@@ -39,9 +46,12 @@ public class Enemy: Creature
 
         if (collision.collider.TryGetComponent<PlayerController>(out var player))
         {
-            lifeController.TakeDamage(_damage);
-            player.Hit();
-            player.Die();
+            player.Hit(_damage);
+
+            if (lifeController.Hp <= 0)
+            {
+                player.Die();
+            }
         }
     }
 
