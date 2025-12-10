@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3dc2e01e1b5e8ab48897b7b7f644b4c0
+guid: f66e148d8fdd65b47b27687eba726d45
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,1009 +97,1009 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: death_normal_0
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 341
-        width: 12
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1c6fb4ba4aec1d42bd4de21c30480e3
-      internalID: 1924261008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_1
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 340
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e60fd03c27ff9944194e75affa23cc31
-      internalID: 1062455150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_2
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 339
-        width: 12
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 425d5081a1454084f9ced01e091e8906
-      internalID: -2100419131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_3
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 340
-        width: 12
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5301996345fb50a4a951305a50ba48f0
-      internalID: 1364521082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_4
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 339
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 195b4c3a1088c57428e4eef5d71292e9
-      internalID: 2015064235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_5
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 338
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36064a614f07b6247962a55e1ae14d7d
-      internalID: 231155809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_6
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 325
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e03ebd77d32223a4ab714e8bc1837e70
-      internalID: 525536301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_7
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 325
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fd4840ec0ff7fb4db5546e3fdb51443
-      internalID: -517542470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_8
+      name: walk_0
       rect:
         serializedVersion: 2
         x: 18
+        y: 341
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74ed0d7a5777946901e30acdee28c4
+      internalID: 702042350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 340
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3cc3acf0755834b96b695afd144e39
+      internalID: -1125438468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 341
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f535f40968381478867d2172aa6955
+      internalID: 880382148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 342
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37ad82b42fc4d4db93b543bf6e5895
+      internalID: -1086266511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f16b5b270dceee4abee470e4d691323
+      internalID: 1362215233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 340
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20ead8799118c40b7e756b6e027917
+      internalID: -627270573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 341
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd899f67ed48184c99a6624249719ba
+      internalID: -181370700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 342
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d591292d417040be8a014a670bc35
+      internalID: 57571098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 277
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f1a9e7890e29049abb0fcb47e637b7
+      internalID: 2134225374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 277
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a487a1de38dbc44d9a3c4f00ee74243
+      internalID: 712698259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 278
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575c903a635dfe449afee0ebe41953cb
+      internalID: 1602778948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 278
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b3c896bb2862a458661776dd21abb5
+      internalID: -1506314230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 277
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54f84f38019a2a499605bf01e41a138
+      internalID: 1290955253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 276
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2d51ed823277f49a62f39e6eb749b6
+      internalID: -1420674656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 276
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231f647d70edd37459280e4076126c2a
+      internalID: 988276843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_15
+      rect:
+        serializedVersion: 2
+        x: 354
         y: 276
         width: 13
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae626354fe8570f4db7a5838dc6bf9a7
-      internalID: -1864512951
+      spriteID: 96b58b12788680c428e43e82215e0296
+      internalID: 804254618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_9
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 276
-        width: 13
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68a765cc898e1ab408c6fca9e04f503e
-      internalID: -964599224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_10
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 277
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fa9b8e9f30d332459ebd50a78f1e631
-      internalID: -734444199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_11
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 277
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e10ca1c4698b2ea41bd44dfa1fc45373
-      internalID: 920082844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_12
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 277
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f69aa1b2769290441870787458466954
-      internalID: 1081695604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_13
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 276
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed592269cf0c26046b8de6e8feacc893
-      internalID: 1393127963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_14
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 271
-        width: 21
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3afbc68630a41f247ac33f94d0e47133
-      internalID: -1387318598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_15
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 271
-        width: 21
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6062595a1d9f0564abafc90d954fbe17
-      internalID: 397502924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_16
+      name: walk_16
       rect:
         serializedVersion: 2
         x: 17
         y: 212
         width: 15
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc3fef1b5ae2bd48bd06b6dbf400104
-      internalID: -1981457688
+      spriteID: cf561207fbd4e364db36b655a952b531
+      internalID: -498478984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_17
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 213
-        width: 15
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afefdfe91f4781a4595503f59b490934
-      internalID: -208177805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_18
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 213
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdd93cce29747db4087ffc53052b05f3
-      internalID: 1189083205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_19
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 213
-        width: 15
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f71cce2515106f40adf964e87116893
-      internalID: -1465776920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_20
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 213
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38ce95ec3e0820d4380bc42a9197dc64
-      internalID: -1222044782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_21
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 213
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 716b2479c8e8ff443a6e6eaf1f69eac6
-      internalID: -1556470519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_22
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 213
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d8176df6440a8a4385b23fbc9612214
-      internalID: 1918556016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_23
-      rect:
-        serializedVersion: 2
-        x: 339
-        y: 213
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb533aaa32428a4889961917696a0d6
-      internalID: -1543792329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_24
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 149
-        width: 13
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f89f216c2d53624b8c6016780eb94d5
-      internalID: -2040818011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_25
+      name: walk_17
       rect:
         serializedVersion: 2
         x: 65
-        y: 149
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 213
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 014740bd9f657f54eadd733c1fea0721
-      internalID: -540161650
+      spriteID: 47c90ebe6fd1c9d44b6494bb2fabca8e
+      internalID: -2116300236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_26
+      name: walk_18
       rect:
         serializedVersion: 2
         x: 113
-        y: 149
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 213
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d306fadbcc3ba4ca08a8cbfbcba6d9
-      internalID: 1777373831
+      spriteID: bc2fe43f4c466494a88c62091bd84b89
+      internalID: 1066680048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_27
+      name: walk_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 213
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd68464154f83cf40bcedd1aecfc59c8
+      internalID: 394136194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 213
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eaf34e93f75c246b9c7322a3c57378
+      internalID: -1503386632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 212
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d3a1d713f23bb4db22fa7cf8dbf505
+      internalID: 1507986864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 212
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612695a285179f54ab50a9ecb35f1442
+      internalID: 1198060959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_23
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 212
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3537361a927b14f8aa24d68f5bda5f
+      internalID: 1669631868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 148
+        width: 13
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ef9948ba7e3414eb3796a7445f50a4
+      internalID: -1959513374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 148
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17bde58ae3e7904c831f4baf7824beb
+      internalID: 308622186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 148
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f24ebb51b4e3148ba254b6b9c8708e
+      internalID: -2002681769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_27
       rect:
         serializedVersion: 2
         x: 161
-        y: 149
+        y: 150
         width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7c5fabd28ec484584899226e813a99
-      internalID: -558673373
+      spriteID: d4caf17705bbdd84aaac3b4360c33a59
+      internalID: 1173323525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_28
+      name: walk_28
       rect:
         serializedVersion: 2
         x: 209
         y: 148
         width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c4c9459d7dbc284d89f6c7f6f1bcc0a
-      internalID: -107355215
+      spriteID: 03f553bda5f4aac4087f18da94715de8
+      internalID: -294948749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_29
+      name: walk_29
       rect:
         serializedVersion: 2
         x: 257
-        y: 149
+        y: 148
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246822f40bd7eb74b92f0e9002414274
+      internalID: 537120901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 148
         width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d715e03551e1ea44ebfbce8e6bd0421e
-      internalID: -1905932084
+      spriteID: aeb22dc5e0af0174eb5cfebc94f24b8e
+      internalID: -147928045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_30
+      name: walk_31
       rect:
         serializedVersion: 2
-        x: 304
-        y: 149
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 353
+        y: 150
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24e028e37b58dbf42ba225708a66d947
-      internalID: -2123692073
+      spriteID: e3e9f788c9c3e6845810a88667de754c
+      internalID: 1290861437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_31
+      name: walk_32
       rect:
         serializedVersion: 2
-        x: 352
-        y: 149
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 220eedb3bc299d24da814eb95f5a2e3b
-      internalID: 1845994917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_32
-      rect:
-        serializedVersion: 2
-        x: 17
+        x: 16
         y: 84
         width: 15
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ed88b3bc98b7249a3a55f1303168ae
-      internalID: -1878698617
+      spriteID: 2a4f5fb077efd7a458ff866506c12253
+      internalID: 1663701148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_33
+      name: walk_33
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
+        y: 86
+        width: 15
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5548c48327a4c4d8cd05e67e6a967e
+      internalID: 959078707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_34
+      rect:
+        serializedVersion: 2
+        x: 112
         y: 85
         width: 15
         height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecac003868c2a024f8414b11e059baa6
-      internalID: -1374181315
+      spriteID: a27a4b68a2af7074abbebfae93924e37
+      internalID: 60500883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_34
+      name: walk_35
       rect:
         serializedVersion: 2
-        x: 116
+        x: 160
         y: 85
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d15374b88bc6e944abf5026b290a936
-      internalID: -1788062673
+      spriteID: 2f489e6242e581041acf11f286de1cfd
+      internalID: -402948829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_35
+      name: walk_36
       rect:
         serializedVersion: 2
-        x: 164
-        y: 85
-        width: 15
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62ae80276c25c9249a281ec56e46c2d3
-      internalID: -1539812533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_36
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 85
+        x: 207
+        y: 84
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8173975f5b00c504a9d136d7114e58be
-      internalID: 123248134
+      spriteID: d5b4445c62f8dcc45b868c1b7fbf943e
+      internalID: -577113447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_37
+      name: walk_37
       rect:
         serializedVersion: 2
-        x: 263
+        x: 255
         y: 85
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9616f0f1e425c6b458d5ad26c79584c5
-      internalID: 504262510
+      spriteID: 50043c4e033721d499577f7a0fa8b1b6
+      internalID: -1109706460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_38
+      name: walk_38
       rect:
         serializedVersion: 2
-        x: 311
-        y: 85
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 303
+        y: 84
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66591cf0422ea0b4f9898fe287930eb9
-      internalID: 1948038529
+      spriteID: df956cec5d257b046b456b00182bbaa1
+      internalID: -1721488093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_39
+      name: walk_39
       rect:
         serializedVersion: 2
-        x: 359
-        y: 85
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 351
+        y: 84
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e4859874ed880745846ec47d8067307
-      internalID: -971135062
+      spriteID: 9d1aa2bcfeb7cdf4ab863bdb3c7bdbd0
+      internalID: -1832052933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_normal_40
+      name: walk_40
       rect:
         serializedVersion: 2
-        x: 18
+        x: 17
+        y: 21
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9c3d37f8ea21c4f99d468df9179933
+      internalID: -1701877490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_41
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 21
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81eb1a50c7f8c144aa9a14093c81bdd
+      internalID: -1372251388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_42
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 22
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb92ee456b9d06a4abc7c5fee81780a5
+      internalID: 1254095537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_43
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 22
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1643e0fdba7fb1419c87254692cdd28
+      internalID: -1194236644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_44
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 21
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608a87fe589df6e4db81e580af2a7f5e
+      internalID: 356433968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_45
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 20
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f38b2ab2a1a0b4ebda77c66b2bb622
+      internalID: 1138497338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_46
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 20
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ddef67460ff374b836357cb43d702b
+      internalID: 451214187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_47
+      rect:
+        serializedVersion: 2
+        x: 353
         y: 20
         width: 13
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a4ab4fd19b3494fb8f824750775015
-      internalID: -381768774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_41
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 20
-        width: 13
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00e46275b189b20419f05c32f4ec4ffb
-      internalID: 840672953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_42
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 21
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cab4ac37aaec57a4b9b38db87d00d53c
-      internalID: -1820406634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_43
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 21
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06035f956b861944f9259b6255f05437
-      internalID: -328405736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_44
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 21
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1617fa98edf36674381ae949750cb479
-      internalID: -1968058541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_45
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 20
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1722a3ac81db04742a947ccc77a2a89b
-      internalID: -192514032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_46
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 15
-        width: 21
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdfcee29ca2447641bd55dcc64366b80
-      internalID: -419769304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_normal_47
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 15
-        width: 21
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b0919237a29cd84f968ab72caf2a1aa
-      internalID: 223598270
+      spriteID: a60521c9dcd82244d984d7d271f786b0
+      internalID: 1378282225
       vertices: []
       indices: 
       edges: []
@@ -1115,54 +1115,54 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      death_normal_0: 1924261008
-      death_normal_1: 1062455150
-      death_normal_10: -734444199
-      death_normal_11: 920082844
-      death_normal_12: 1081695604
-      death_normal_13: 1393127963
-      death_normal_14: -1387318598
-      death_normal_15: 397502924
-      death_normal_16: -1981457688
-      death_normal_17: -208177805
-      death_normal_18: 1189083205
-      death_normal_19: -1465776920
-      death_normal_2: -2100419131
-      death_normal_20: -1222044782
-      death_normal_21: -1556470519
-      death_normal_22: 1918556016
-      death_normal_23: -1543792329
-      death_normal_24: -2040818011
-      death_normal_25: -540161650
-      death_normal_26: 1777373831
-      death_normal_27: -558673373
-      death_normal_28: -107355215
-      death_normal_29: -1905932084
-      death_normal_3: 1364521082
-      death_normal_30: -2123692073
-      death_normal_31: 1845994917
-      death_normal_32: -1878698617
-      death_normal_33: -1374181315
-      death_normal_34: -1788062673
-      death_normal_35: -1539812533
-      death_normal_36: 123248134
-      death_normal_37: 504262510
-      death_normal_38: 1948038529
-      death_normal_39: -971135062
-      death_normal_4: 2015064235
-      death_normal_40: -381768774
-      death_normal_41: 840672953
-      death_normal_42: -1820406634
-      death_normal_43: -328405736
-      death_normal_44: -1968058541
-      death_normal_45: -192514032
-      death_normal_46: -419769304
-      death_normal_47: 223598270
-      death_normal_5: 231155809
-      death_normal_6: 525536301
-      death_normal_7: -517542470
-      death_normal_8: -1864512951
-      death_normal_9: -964599224
+      walk_0: 702042350
+      walk_1: -1125438468
+      walk_10: 1602778948
+      walk_11: -1506314230
+      walk_12: 1290955253
+      walk_13: -1420674656
+      walk_14: 988276843
+      walk_15: 804254618
+      walk_16: -498478984
+      walk_17: -2116300236
+      walk_18: 1066680048
+      walk_19: 394136194
+      walk_2: 880382148
+      walk_20: -1503386632
+      walk_21: 1507986864
+      walk_22: 1198060959
+      walk_23: 1669631868
+      walk_24: -1959513374
+      walk_25: 308622186
+      walk_26: -2002681769
+      walk_27: 1173323525
+      walk_28: -294948749
+      walk_29: 537120901
+      walk_3: -1086266511
+      walk_30: -147928045
+      walk_31: 1290861437
+      walk_32: 1663701148
+      walk_33: 959078707
+      walk_34: 60500883
+      walk_35: -402948829
+      walk_36: -577113447
+      walk_37: -1109706460
+      walk_38: -1721488093
+      walk_39: -1832052933
+      walk_4: 1362215233
+      walk_40: -1701877490
+      walk_41: -1372251388
+      walk_42: 1254095537
+      walk_43: -1194236644
+      walk_44: 356433968
+      walk_45: 1138497338
+      walk_46: 451214187
+      walk_47: 1378282225
+      walk_5: -627270573
+      walk_6: -181370700
+      walk_7: 57571098
+      walk_8: 2134225374
+      walk_9: 712698259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
