@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemies: Creature
+public class Enemy: Creature
 {
     [SerializeField] protected float _speed;
+    [SerializeField] protected int _damage;
 
     protected PlayerController _player;
     protected EnemyManager _enemyManager;
@@ -32,11 +33,15 @@ public class Enemies: Creature
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
+        var lifeController = collision.collider.GetComponent<LifeController>();
+
         if (collision.collider.TryGetComponent<PlayerController>(out var player))
         {
+            lifeController.TakeDamage(_damage);
             player.Hit();
+            player.Die();
         }
     }
 
@@ -49,11 +54,5 @@ public class Enemies: Creature
                 _playerInTrigger = true;
             }
         }
-    }
-
-    public override void Die()
-    {
-        base.Die();
-        _enemyManager.RemoveEnemy(this);
     }
 }

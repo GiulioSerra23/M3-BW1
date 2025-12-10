@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class CameraShakeOnHit : MonoBehaviour
 {
-    private float _shakeDuration;
-    private float _shakeMagnitude;
+    [SerializeField] private float _shakeMagnitude = 0.1f;
+    [SerializeField] private float _shakeDuration = 0.05f;
 
+    private float _timer;
     private Vector3 _cameraPos;
 
     void LateUpdate()
     {
         _cameraPos = transform.localPosition;
 
-        if (_shakeDuration > 0)
+        if (_timer > 0)
         {
             float _shakeX = Random.Range(-1, 1) * _shakeMagnitude;
             float _shakeY = Random.Range(-1, 1) * _shakeMagnitude;
 
-            transform.position = new Vector3(transform.position.x + _shakeX, transform.position.y + _shakeY, transform.localPosition.z);
+            transform.localPosition = new Vector3(_cameraPos.x + _shakeX, _cameraPos.y + _shakeY, _cameraPos.z);
 
-            _shakeDuration -= Time.deltaTime;
+            _timer -= Time.deltaTime;
         }
         else
         {
@@ -28,9 +29,8 @@ public class CameraShakeOnHit : MonoBehaviour
         }
     }
 
-    public void ShakeOnHit (float duration, float magnitude)
+    public void ShakeOnHit ()
     {
-        _shakeDuration = duration;
-        _shakeMagnitude = magnitude;
+        _timer = _shakeDuration;
     }
 }

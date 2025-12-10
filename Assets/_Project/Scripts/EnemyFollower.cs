@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyFollower : Enemies
+public class EnemyFollower : Enemy
 {
     public override void EnemyMovement()
     {
-        if (_player != null)
+        if (_player != null && !_isDead)
         {
             Vector2 currentPos = transform.position;
             Vector2 targetPos = _player.transform.position;
@@ -27,6 +27,24 @@ public class EnemyFollower : Enemies
             {
                 _animHandler.SetIsMoving(false);
             }
+        }
+    }
+
+    private void DieOnCollision()
+    {
+        _isDead = true;
+        _animHandler.SetIsDead();
+        _enemyManager.RemoveEnemy(this);
+        GetComponent<Collider2D>().enabled = false;
+    }
+
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        base.OnCollisionEnter2D(collision);
+
+        if (collision.collider.TryGetComponent<PlayerController>(out var player))
+        {
+            DieOnCollision();
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    public List<Enemies> _enemies;
+    [SerializeField] private List<Enemy> _enemies;
     private float timer;
 
     [SerializeField] private GameObject[] _enemiesArr;
@@ -12,12 +12,12 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private float _spawnTimer;
     [SerializeField] private int _maxEnemies;
 
-    public void AddEnemy (Enemies enemy)
+    public void AddEnemy (Enemy enemy)
     {
         _enemies.Add(enemy);
     }
 
-    public void RemoveEnemy(Enemies enemy)
+    public void RemoveEnemy(Enemy enemy)
     {
         _enemies.Remove(enemy);
     }
@@ -41,7 +41,6 @@ public class EnemyManager : MonoBehaviour
                 SpawnEnemy();
                 timer = 0;
             }
-        }
-        
+        }        
     }
 }
