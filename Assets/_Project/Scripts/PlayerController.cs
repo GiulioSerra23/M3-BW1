@@ -6,10 +6,10 @@ public class PlayerController : Creature
 {
     [SerializeField] private float magnitude = 0.1f;
     [SerializeField] private float duration = 0.05f;
+    [SerializeField] private CameraShakeOnHit _shakeOnHit;
 
     private float _horizontal;
     private float _vertical;
-    [SerializeField] private CameraShakeOnHit _shakeOnHit;
 
     public Vector2 Direction { get; private set; }
 

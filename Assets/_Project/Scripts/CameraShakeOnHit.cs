@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class CameraShakeOnHit : MonoBehaviour
 {
-
     private float _shakeDuration;
     private float _shakeMagnitude;
 
     private Vector3 _cameraPos;
 
-    // Update is called once per frame
     void LateUpdate()
     {
         _cameraPos = transform.localPosition;

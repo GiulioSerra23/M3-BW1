@@ -29,6 +29,14 @@ public class Enemies: Creature
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.TryGetComponent<PlayerController>(out var player))
+        {
+            player.Hit();
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent<PlayerController>(out var player))
