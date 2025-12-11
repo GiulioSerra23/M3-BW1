@@ -316,12 +316,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   _speed: 0
   _damage: 0
   _patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
   _speed: 4
   _damage: 20
   _pickupWeapons:
@@ -331,4 +334,7 @@ MonoBehaviour:
   - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
   - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
   _patrolPoints: []
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

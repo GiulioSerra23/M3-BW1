@@ -754,6 +754,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
 --- !u!1 &873023352 stripped
 GameObject:
@@ -776,6 +777,9 @@ MonoBehaviour:
   _pickUpPrefab: {fileID: 0}
   _speed: 3
   _damage: 0
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 2130726092909084abff8f0e47b5e3a4, type: 3}
+>>>>>>> Stashed changes
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 2130726092909084abff8f0e47b5e3a4, type: 3}
 >>>>>>> Stashed changes

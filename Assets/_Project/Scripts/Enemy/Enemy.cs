@@ -5,7 +5,10 @@ using UnityEngine;
 public class Enemy: Creature
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     [SerializeField] protected Pickup _pickUpPrefab;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     [SerializeField] protected float _speed;
