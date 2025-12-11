@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyPatroller : Enemy
 {
     [SerializeField] private Transform[] _patrolPoints;
-    private int _currentPatrolIndex = 0;
 
+    private int _currentPatrolIndex = 0;
 
     protected override void EnemyMovement()
     {
@@ -18,11 +18,7 @@ public class EnemyPatroller : Enemy
 
         Vector2 direction = targetPos - currentPos;
 
-        Vector2 newPos = Vector2.MoveTowards(
-            currentPos,
-            targetPos,
-            _speed * Time.deltaTime
-        );
+        Vector2 newPos = Vector2.MoveTowards(currentPos, targetPos, _speed * Time.deltaTime);
 
         transform.position = newPos;
 
@@ -38,5 +34,4 @@ public class EnemyPatroller : Enemy
             _currentPatrolIndex = (_currentPatrolIndex + 1) % _patrolPoints.Length;
         }
     }
-
 }

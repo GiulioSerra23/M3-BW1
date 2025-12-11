@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 public abstract class Weapon : MonoBehaviour
 {
-    [SerializeField] protected Bullet projectilePrefab;
-    [SerializeField] protected float fireRate;
-    [SerializeField] protected float range;
+    [SerializeField] protected Bullet _bulletPrefab;
+    [SerializeField] protected float _fireRate;
+    [SerializeField] protected float _fireRange;
 
-    protected float lastShot;
+    protected float _lastShot;
 
     protected abstract void Fire();
 
     private bool CanShootNow()
     {
-        return Time.time - lastShot > fireRate;
+        return Time.time - _lastShot > _fireRate;
     }
 
     private void TryToShoot()
     {
         if(CanShootNow())
         {
-            lastShot = Time.time;   
+            _lastShot = Time.time;   
             Fire();
         }
     }

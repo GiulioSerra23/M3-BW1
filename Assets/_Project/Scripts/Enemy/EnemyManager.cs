@@ -12,6 +12,8 @@ public class EnemyManager : MonoBehaviour
 
     private float timer;
 
+    public List<Enemy> Enemies { get => _enemies; private set => _enemies = value; }
+
     public void AddEnemy (Enemy enemy)
     {
         _enemies.Add(enemy);

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2579027149690620236
+--- !u!1 &8895742836330682399
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5910673453066077656}
-  - component: {fileID: 1177441127172128489}
+  - component: {fileID: 311412967419259083}
+  - component: {fileID: 5214601090090551679}
   m_Layer: 0
-  m_Name: WeaponUpDown
+  m_Name: WeaponAutoTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5910673453066077656
+--- !u!4 &311412967419259083
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2579027149690620236}
+  m_GameObject: {fileID: 8895742836330682399}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9758835, y: 0.39246225, z: -0.04598752}
+  m_LocalPosition: {x: -1.0510005, y: -1.6704491, z: -0.043277342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1177441127172128489
+--- !u!114 &5214601090090551679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2579027149690620236}
+  m_GameObject: {fileID: 8895742836330682399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c38c3eeb91e7004b9536d27d2b5bdbd, type: 3}
+  m_Script: {fileID: 11500000, guid: 858e8f44f37896f4bbfb3a4ac37729ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletPrefab: {fileID: 4866471807761299485, guid: 12f04b1cc6ad60349b5fa82291c1e68d, type: 3}
+  _bulletPrefab: {fileID: 4866471807761299485, guid: 63d8d102ceb44774ebc479b6190b7305, type: 3}
   _fireRate: 0.5
   _fireRange: 10

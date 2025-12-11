@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 6936024273280729999}
   - component: {fileID: -2681391469995868075}
   m_Layer: 6
-  m_Name: EnemyWaypoint
+  m_Name: EnemyPatroller
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
