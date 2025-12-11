@@ -317,6 +317,12 @@ MonoBehaviour:
   _name: 
   _speed: 0
   _damage: 0
+  _pickupWeapons:
+  - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
+  - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
+  - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
+  - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
+  - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
   _patrolPoints:
   - {fileID: 0}
   - {fileID: 0}

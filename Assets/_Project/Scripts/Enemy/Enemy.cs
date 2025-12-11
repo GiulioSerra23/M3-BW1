@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Enemy: Creature
 {
-    [SerializeField] protected Pickup _pickUpPrefab;
+    
     [SerializeField] protected float _speed;
     [SerializeField] protected int _damage;
+    [SerializeField] protected List<Pickup> _pickupWeapons; 
 
     protected PlayerController _player;
     protected EnemyManager _enemyManager;
@@ -30,6 +31,7 @@ public class Enemy: Creature
     {
         base.Die();
         _enemyManager.RemoveEnemy(this);
+        PickUpWeapons();
     }
 
 
@@ -64,6 +66,37 @@ public class Enemy: Creature
             {
                 _playerInTrigger = true;
             }
+        }
+    }
+
+    private void PickUpWeapons()
+    {
+        int _randomNum = Random.Range(0, 101);
+
+        if (_randomNum <= 5)
+        {
+            Instantiate(_pickupWeapons[0], transform.position, Quaternion.identity);
+        }
+        else if (_randomNum > 5 && _randomNum <= 15)
+        {
+            Instantiate(_pickupWeapons[1], transform.position, Quaternion.identity);
+        }
+        else if (_randomNum > 15 && _randomNum <= 30)
+        {
+            Instantiate(_pickupWeapons[2], transform.position, Quaternion.identity);
+        }
+        else if (_randomNum > 30 && _randomNum <= 50)
+        {
+
+            if(Random.value < 0.5)
+            {
+                Instantiate(_pickupWeapons[3], transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(_pickupWeapons[4], transform.position, Quaternion.identity);
+            }
+
         }
     }
 }
