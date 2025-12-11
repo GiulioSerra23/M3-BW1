@@ -39,4 +39,9 @@ public class EnemyPatroller : Enemy
         }
     }
 
+    public override void Die()
+    {
+        base.Die();
+        Instantiate(_pickUpPrefab, transform.position, Quaternion.identity);
+    }
 }

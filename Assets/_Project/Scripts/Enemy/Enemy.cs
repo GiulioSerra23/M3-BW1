@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy: Creature
 {
+    [SerializeField] protected Pickup _pickUpPrefab;
     [SerializeField] protected float _speed;
     [SerializeField] protected int _damage;
 

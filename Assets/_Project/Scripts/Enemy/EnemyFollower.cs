@@ -30,6 +30,12 @@ public class EnemyFollower : Enemy
         }
     }
 
+    public override void Die()
+    {
+        base.Die();
+        Instantiate(_pickUpPrefab, transform.position, Quaternion.identity);
+    }
+
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
         base.OnCollisionEnter2D(collision);
