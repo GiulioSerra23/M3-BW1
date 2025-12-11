@@ -19,10 +19,7 @@ public class Bullet : MonoBehaviour
     {
         if (_rb == null) _rb = GetComponent<Rigidbody2D>();
         _rb.velocity = direction * _speed;
-<<<<<<< Updated upstream
         transform.up = direction;
-=======
->>>>>>> Stashed changes
     }
 
     protected void OnCollisionEnter2D(Collision2D collision)
