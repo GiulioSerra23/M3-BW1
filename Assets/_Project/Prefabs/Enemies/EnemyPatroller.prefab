@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 5270833125823897795}
   - component: {fileID: 7688083919270163538}
   - component: {fileID: 6936024273280729999}
-  - component: {fileID: -2681391469995868075}
+  - component: {fileID: 1448722612127921465}
   m_Layer: 6
   m_Name: EnemyPatroller
   m_TagString: Enemy
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e47dc11526b504b8e72d21080a952a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2681391469995868075
+--- !u!114 &1448722612127921465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,8 +315,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   _speed: 0
   _damage: 0
+=======
+  _speed: 3
+  _damage: 20
+>>>>>>> Stashed changes
   _pickupWeapons:
   - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
   - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
@@ -326,3 +333,19 @@ MonoBehaviour:
   _patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
+=======
+=======
+>>>>>>> Stashed changes
+  _speed: 4
+  _damage: 20
+  _pickupWeapons:
+  - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
+  - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
+  - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
+  - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
+  - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
+  _patrolPoints: []
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes

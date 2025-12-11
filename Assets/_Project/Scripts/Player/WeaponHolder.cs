@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class WeaponHolder : MonoBehaviour
 {
-    private Weapon _equippedWeapon;
+    [SerializeField] private Weapon _equippedWeapon;
+
+    private void Start()
+    {
+        Instantiate(_equippedWeapon, transform);
+    }
 
     public void EquipWeapon(Weapon newWeapon)
     {

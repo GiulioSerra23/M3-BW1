@@ -10,9 +10,8 @@ public class EnemyRandomMove : Enemy
     protected Vector2 _randomDirectionL;
     private float _timer;
 
-    protected override void Awake()
+    protected void Start()
     {
-        base.Awake();
         NewDirection();
     }
 

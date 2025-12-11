@@ -12,16 +12,15 @@ public class WeaponMultiShot : Weapon
         Vector2 dirFR = new Vector2(1, 1);
 
         Bullet bulletF = Instantiate(_bulletPrefab, transform);
-        bulletF.transform.position = new Vector2(playerPos.x, playerPos.y);
+        bulletF.transform.position = transform.parent.position;
         bulletF.SetUp(Vector2.up);
 
-
         Bullet bulletFL = Instantiate(_bulletPrefab, transform);
-        bulletFL.transform.position = new Vector2(playerPos.x, playerPos.y);
+        bulletFL.transform.position = transform.parent.position;
         bulletFL.SetUp(dirFL);
 
         Bullet bulletFR = Instantiate(_bulletPrefab, transform);
-        bulletFR.transform.position = new Vector2(playerPos.x, playerPos.y);
+        bulletFR.transform.position = transform.parent.position;
         bulletFR.SetUp(dirFR);
     }
 }
