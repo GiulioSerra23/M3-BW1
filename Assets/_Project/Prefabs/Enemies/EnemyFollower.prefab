@@ -241,7 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _speed: 3
-  _damage: 0
+  _damage: 20
   _pickupWeapons:
   - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
   - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
