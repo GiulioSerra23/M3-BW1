@@ -6,19 +6,19 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] protected int _damage;
     [SerializeField] protected float _speed;
-    [SerializeField] protected float _lifeTime;
+    [SerializeField] protected float _lifeSpan;
 
     private Rigidbody2D _rb;
 
-    protected void Awake()
+    protected void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
-        Destroy(gameObject, _lifeTime);
+        Destroy(gameObject, _lifeSpan);
     }
 
     public void SetUp(Vector2 direction)
     {
-        _rb.velocity = direction * _lifeTime;
+        if (_rb == null) _rb = GetComponent<Rigidbody2D>();
+        _rb.velocity = direction * _lifeSpan;
     }
 
     protected void OnCollisionEnter2D(Collision2D collision)

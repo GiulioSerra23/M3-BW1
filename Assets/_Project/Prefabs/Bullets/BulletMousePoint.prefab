@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1579334220297766831}
   - component: {fileID: 4866471807761299485}
   m_Layer: 7
-  m_Name: BulletAutoTarget
+  m_Name: BulletMousePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
