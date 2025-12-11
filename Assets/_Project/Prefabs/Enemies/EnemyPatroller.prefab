@@ -164,8 +164,9 @@ GameObject:
   - component: {fileID: 5270833125823897795}
   - component: {fileID: 7688083919270163538}
   - component: {fileID: 6936024273280729999}
+  - component: {fileID: -2681391469995868075}
   m_Layer: 6
-  m_Name: EnemyWaypoint
+  m_Name: EnemyPatroller
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,3 +302,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e47dc11526b504b8e72d21080a952a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2681391469995868075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699493896678938658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8b0dcb31b729e419718123fb7d5467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: 
+  _speed: 0
+  _damage: 0
+  _patrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
