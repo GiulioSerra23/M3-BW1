@@ -163,7 +163,11 @@ GameObject:
   - component: {fileID: 2205528832166883894}
   - component: {fileID: 5298716878819424485}
   - component: {fileID: 3304054520709851739}
+<<<<<<< Updated upstream
   - component: {fileID: 5820828472302621757}
+=======
+  - component: {fileID: -5257743268707082406}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: EnemyRandomMovement
   m_TagString: Enemy
@@ -289,7 +293,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHp: 100
   _currentHp: 30
+<<<<<<< Updated upstream
 --- !u!114 &5820828472302621757
+=======
+--- !u!114 &-5257743268707082406
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,7 +310,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: 
+<<<<<<< Updated upstream
   _speed: 4
+=======
+  _speed: 3
+>>>>>>> Stashed changes
   _damage: 20
   _pickupWeapons:
   - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
