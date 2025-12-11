@@ -1,22 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public abstract class WeaponBase : MonoBehaviour
+public abstract class Weapon : MonoBehaviour
 {
-    [SerializeField] protected string weaponName;
+    [SerializeField] protected Bullet projectilePrefab;
     [SerializeField] protected float fireRate;
     [SerializeField] protected float range;
+
     protected float lastShot;
-    [SerializeField] protected ProjectileBase projectilePrefab;
 
     protected abstract void Fire();
 
-    protected bool CanShootNow()
+    private bool CanShootNow()
     {
         return Time.time - lastShot > fireRate;
     }
 
-    protected void TryToShoot()
+    private void TryToShoot()
     {
         if(CanShootNow())
         {

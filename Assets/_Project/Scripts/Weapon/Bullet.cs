@@ -2,29 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileBase : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
-    Rigidbody2D Projectile;
-    [SerializeField] protected int damage;
-    [SerializeField] protected float speed;
-    [SerializeField] protected float lifeTime;
+    [SerializeField] protected int _damage;
+    [SerializeField] protected float _speed;
+    [SerializeField] protected float _lifeTime;
+
+    private Rigidbody2D _rb;
 
     protected void Awake()
     {
-        Projectile = GetComponent<Rigidbody2D>();
-        Destroy(gameObject,lifeTime);
+        _rb = GetComponent<Rigidbody2D>();
+        Destroy(gameObject, _lifeTime);
     }
-    public void Move(Vector2 direction)
+
+    public void SetUp(Vector2 direction)
     {
-        Projectile.velocity = direction * speed;
+        _rb.velocity = direction * _lifeTime;
     }
+
     protected void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
         LifeController lifeController = collision.collider.GetComponent<LifeController>();
         if (collision.collider.TryGetComponent<Enemy>(out var enemy))
         {
-            enemy.Hit(damage);
+            enemy.Hit(_damage);
             if (lifeController.Hp <= 0)
             {
                 enemy.Die();
