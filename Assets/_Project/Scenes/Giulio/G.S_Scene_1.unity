@@ -614,9 +614,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: 
-  _pickUpPrefab: {fileID: 0}
   _speed: 3
   _damage: 0
+  _pickupWeapons: []
 --- !u!1001 &952003855
 PrefabInstance:
   m_ObjectHideFlags: 0
