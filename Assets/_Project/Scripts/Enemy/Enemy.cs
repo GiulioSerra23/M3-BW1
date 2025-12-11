@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy: Creature
 {
-    
+    [SerializeField] protected Pickup _pickUpPrefab;
     [SerializeField] protected float _speed;
     [SerializeField] protected int _damage;
     [SerializeField] protected List<Pickup> _pickupWeapons; 
@@ -96,7 +96,6 @@ public class Enemy: Creature
             {
                 Instantiate(_pickupWeapons[4], transform.position, Quaternion.identity);
             }
-
         }
     }
 }

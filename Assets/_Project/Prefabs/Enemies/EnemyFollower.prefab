@@ -130,9 +130,9 @@ GameObject:
   - component: {fileID: 5768829715886027810}
   - component: {fileID: 6645117290818542098}
   - component: {fileID: 5921373850387609575}
-  - component: {fileID: 8868095977239347252}
   - component: {fileID: 7522247705813428811}
   - component: {fileID: 7248391366643266701}
+  - component: {fileID: 2726555678065671115}
   m_Layer: 6
   m_Name: EnemyFollower
   m_TagString: Enemy
@@ -242,12 +242,6 @@ MonoBehaviour:
   _name: 
   _speed: 3
   _damage: 0
-  _pickupWeapons:
-  - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
-  - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
-  - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
-  - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
-  - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
 --- !u!114 &7522247705813428811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +273,27 @@ MonoBehaviour:
   _isMoving: isMoving
   _isDeadName: isDead
   _isHitName: isHit
+--- !u!114 &2726555678065671115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2158382502151161540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c119141a3e11cf46a814de2dca2cc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: 
+  _speed: 4
+  _damage: 0
+  _pickupWeapons:
+  - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
+  - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
+  - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
+  - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
+  - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
 --- !u!1 &5724836439592193666
 GameObject:
   m_ObjectHideFlags: 0
