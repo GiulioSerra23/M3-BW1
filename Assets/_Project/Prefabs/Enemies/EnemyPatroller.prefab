@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 6960706300954763212}
   - component: {fileID: 5270833125823897795}
   - component: {fileID: 7688083919270163538}
-  - component: {fileID: 6936024273280729999}
   - component: {fileID: 1448722612127921465}
   m_Layer: 6
   m_Name: EnemyPatroller
@@ -290,18 +289,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHp: 100
   _currentHp: 30
---- !u!114 &6936024273280729999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6699493896678938658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47e47dc11526b504b8e72d21080a952a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1448722612127921465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,12 +302,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: 
-  _damage: 20
   _pickupWeapons:
   - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
   - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
   - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
   - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
   - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
+  _speed: 4
+  _damage: 20
   _patrolPoints: []
-

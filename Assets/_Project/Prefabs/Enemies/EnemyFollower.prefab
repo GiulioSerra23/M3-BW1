@@ -227,7 +227,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 4
---- !u!114 &8868095977239347252
+--- !u!114 &7522247705813428811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: 
+  _pickUpPrefab: {fileID: 0}
   _speed: 3
   _damage: 20
   _pickupWeapons:
@@ -248,37 +249,6 @@ MonoBehaviour:
   - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
   - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
   - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
---- !u!114 &7522247705813428811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2158382502151161540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16641fd8019339b448572cf744086552, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHp: 100
-  _currentHp: 30
---- !u!114 &7248391366643266701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2158382502151161540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7377c6b8899568478cdf9ce5defaad5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _hSpeedName: hSpeed
-  _vSpeedName: vSpeed
-  _isMoving: isMoving
-  _isDeadName: isDead
-  _isHitName: isHit
 --- !u!1 &5724836439592193666
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class Enemy: Creature
 {
-    [SerializeField] protected Pickup _pickUpPrefab;
+    [SerializeField] protected List<Pickup> _pickupWeapons;
     [SerializeField] protected float _speed;
     [SerializeField] protected int _damage;
-    [SerializeField] protected List<Pickup> _pickupWeapons; 
 
     protected PlayerController _player;
     protected EnemyManager _enemyManager;
@@ -87,7 +86,6 @@ public class Enemy: Creature
         }
         else if (_randomNum > 30 && _randomNum <= 50)
         {
-
             if(Random.value < 0.5)
             {
                 Instantiate(_pickupWeapons[3], transform.position, Quaternion.identity);
