@@ -9,12 +9,12 @@ public class WeaponUpDown : Weapon
     {
         Vector2 playerPos = transform.parent.position;
 
-        Bullet bulletUp = Instantiate(projectilePrefab, transform);
+        Bullet bulletUp = Instantiate(_bulletPrefab, transform);
         bulletUp.transform.position = new Vector2(playerPos.x, playerPos.y + 1);
         bulletUp.SetUp(Vector2.up);
 
 
-        Bullet bulletDown = Instantiate(projectilePrefab, transform);
+        Bullet bulletDown = Instantiate(_bulletPrefab, transform);
         bulletDown.transform.position = new Vector2(playerPos.x, playerPos.y - 1);
         bulletDown.SetUp(Vector2.down);
     }

@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyPatroller : Enemy
 {
     [SerializeField] private Transform[] _patrolPoints;
-    private int _currentPatrolIndex = 0;
 
+    private int _currentPatrolIndex = 0;
 
     protected override void EnemyMovement()
     {

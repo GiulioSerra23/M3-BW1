@@ -9,12 +9,12 @@ public class WeaponLeftRight : Weapon
     {
         Vector2 playerPos = transform.parent.position;
 
-        Bullet bulletLeft = Instantiate(projectilePrefab, transform);
+        Bullet bulletLeft = Instantiate(_bulletPrefab, transform);
         bulletLeft.transform.position = new Vector2(playerPos.x - 1, playerPos.y);
         bulletLeft.SetUp(Vector2.left);
 
 
-        Bullet bulletRight = Instantiate(projectilePrefab, transform);
+        Bullet bulletRight = Instantiate(_bulletPrefab, transform);
         bulletRight.transform.position = new Vector2(playerPos.x + 1, playerPos.y);
         bulletRight.SetUp(Vector2.right);
     }

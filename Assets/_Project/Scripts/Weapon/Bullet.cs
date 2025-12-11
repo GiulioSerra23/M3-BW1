@@ -24,10 +24,12 @@ public class Bullet : MonoBehaviour
     protected void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-        LifeController lifeController = collision.collider.GetComponent<LifeController>();
+        var lifeController = collision.collider.GetComponent<LifeController>();
+
         if (collision.collider.TryGetComponent<Enemy>(out var enemy))
         {
             enemy.Hit(_damage);
+
             if (lifeController.Hp <= 0)
             {
                 enemy.Die();
