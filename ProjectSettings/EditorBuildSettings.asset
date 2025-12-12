@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project/Scenes/Giacomo/G.C_Scene_1.unity
     guid: 1d14d8a15eca66343b41d8874783aa92
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level1.unity
+    guid: fc0bfd05184554d4691a29fb7e86f398
   m_configObjects: {}

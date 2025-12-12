@@ -54,6 +54,17 @@ public class Enemy: Creature
                 Instantiate(_pickupWeapons[4], transform.position, Quaternion.identity);
             }
         }
+        else
+        {
+            if (Random.value < 0.2)
+            {
+                Instantiate(_pickupWeapons[5], transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(_pickupWeapons[6], transform.position, Quaternion.identity);
+            }
+        }
     }
 
     public override void Die()

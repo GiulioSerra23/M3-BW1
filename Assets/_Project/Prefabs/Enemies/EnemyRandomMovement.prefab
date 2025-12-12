@@ -304,11 +304,13 @@ MonoBehaviour:
   _name: 
   _weapon: {fileID: 1177441127172128489, guid: 160b416ab80b8c24cbc1059a55693c70, type: 3}
   _pickupWeapons:
-  - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
   - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
   - {fileID: 7633230914968282890, guid: 8ff491aceb5651842b205894ae9e1e26, type: 3}
   - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
   - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
+  - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
+  - {fileID: -4270137146323287755, guid: 215566af7d5e09e4f834fa3db85179a5, type: 3}
+  - {fileID: -4270137146323287755, guid: 5a951547b3a54ac488d84c53417c60be, type: 3}
   _speed: 5
   _damage: 20
   changeDirectionInterval: 2

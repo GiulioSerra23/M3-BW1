@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3036354729819695934}
   - component: {fileID: 7633230914968282890}
   m_Layer: 0
-  m_Name: WeaponAutoTarget-PickUp
+  m_Name: WeaponBase-PickUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee67b089ea171e04489a89eb357f5acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _weapon: {fileID: 5214601090090551679, guid: 104b471876f619a44a2056f54e482b76, type: 3}
+  _weapon: {fileID: 8715508759948217248, guid: 7081f96f4fc48d74ea541e9f816dcd0d, type: 3}
 --- !u!114 &7633230914968282890
 MonoBehaviour:
   m_ObjectHideFlags: 0
