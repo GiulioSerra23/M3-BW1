@@ -11,7 +11,7 @@ public class WeaponMousePoint : Weapon
         _cam = Camera.main;
     }
 
-    protected override void Fire()
+    public override void Fire()
     {
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = -_cam.transform.position.z;

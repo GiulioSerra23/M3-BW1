@@ -31,7 +31,7 @@ public class WeaponAutoTarget : Weapon
         return nearestEnemy;
     }
 
-    protected override void Fire()
+    public override void Fire()
     {
         GameObject nearestEnemy = FindNearestEnemy();
         if (nearestEnemy == null) return;

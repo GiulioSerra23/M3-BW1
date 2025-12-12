@@ -10,7 +10,7 @@ public class BaseWeapon : Weapon
     {
         _playerController = GetComponentInParent<PlayerController>();
     }
-    protected override void Fire()
+    public override void Fire()
     {
         Vector2 playerPos = transform.parent.position;
 

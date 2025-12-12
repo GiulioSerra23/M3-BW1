@@ -9,7 +9,7 @@ public abstract class Weapon : MonoBehaviour
 
     protected float _lastShot;
 
-    protected abstract void Fire();
+    public abstract void Fire();
 
     private bool CanShootNow()
     {

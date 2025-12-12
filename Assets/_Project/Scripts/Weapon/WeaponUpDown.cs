@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponUpDown : Weapon
 {
 
-    protected override void Fire()
+    public override void Fire()
     {
         Vector2 playerPos = transform.parent.position;
 

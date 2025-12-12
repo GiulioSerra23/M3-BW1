@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5241412091451838652}
   - component: {fileID: 6137369338954238447}
-  - component: {fileID: 2757764908381639062}
   - component: {fileID: -6470833940053790500}
   - component: {fileID: -2184581837597926390}
+  - component: {fileID: 6961429370845729862}
   m_Layer: 7
   m_Name: BulletMultiShot
   m_TagString: Untagged
@@ -87,21 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2757764908381639062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5331840248097810559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 222169893d088d34fb79781a0050f74d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _damage: 5
-  _speed: 8
-  _lifeSpan: 10
 --- !u!50 &-6470833940053790500
 Rigidbody2D:
   serializedVersion: 4
@@ -164,3 +149,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.8
+--- !u!114 &6961429370845729862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5331840248097810559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba41628b55a50f34f8e4697acc6480b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 5
+  _speed: 4
+  _lifeSpan: 10

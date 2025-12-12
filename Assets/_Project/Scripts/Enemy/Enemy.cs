@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class Enemy: Creature
 {
+    [SerializeField] protected Weapon _weapon;
     [SerializeField] protected List<Pickup> _pickupWeapons;
     [SerializeField] protected float _speed;
     [SerializeField] protected int _damage;
@@ -11,6 +13,7 @@ public class Enemy: Creature
     protected PlayerController _player;
     protected EnemyManager _enemyManager;
     protected bool _playerInTrigger;
+    protected bool _instantiateWeapon = true;
     
 
     protected override void Awake()
@@ -30,9 +33,8 @@ public class Enemy: Creature
     {
         base.Die();
         _enemyManager.RemoveEnemy(this);
-        PickUpWeapons();
+        DropPickUp();
     }
-
 
     private void FixedUpdate()
     {
@@ -64,11 +66,17 @@ public class Enemy: Creature
             if (player != null)
             {
                 _playerInTrigger = true;
+
+                if (_instantiateWeapon)
+                {
+                    Instantiate(_weapon, transform);
+                    _instantiateWeapon = false;
+                }
             }
         }
     }
 
-    private void PickUpWeapons()
+    private void DropPickUp()
     {
         int _randomNum = Random.Range(0, 101);
 

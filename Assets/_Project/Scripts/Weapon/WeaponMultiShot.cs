@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponMultiShot : Weapon
 {
 
-    protected override void Fire()
+    public override void Fire()
     {
         Vector2 playerPos = transform.parent.position;
         Vector2 dirFL = new Vector2(-1,1);

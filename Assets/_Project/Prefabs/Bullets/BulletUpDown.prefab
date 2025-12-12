@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7381115902867947501}
   - component: {fileID: 5373632408307384464}
   - component: {fileID: 1579334220297766831}
-  - component: {fileID: 4866471807761299485}
+  - component: {fileID: -8647168382491911840}
   m_Layer: 7
   m_Name: BulletUpDown
   m_TagString: Untagged
@@ -149,7 +149,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4866471807761299485
+--- !u!114 &-8647168382491911840
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4622367418101556314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 222169893d088d34fb79781a0050f74d, type: 3}
+  m_Script: {fileID: 11500000, guid: ba41628b55a50f34f8e4697acc6480b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 5
-  _speed: 10
+  _speed: 4
   _lifeSpan: 10

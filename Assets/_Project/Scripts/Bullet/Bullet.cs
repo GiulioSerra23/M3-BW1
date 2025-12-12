@@ -22,19 +22,8 @@ public class Bullet : MonoBehaviour
         transform.up = direction;
     }
 
-    protected void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-        var lifeController = collision.collider.GetComponent<LifeController>();
-
-        if (collision.collider.TryGetComponent<Enemy>(out var enemy))
-        {
-            enemy.Hit(_damage);
-
-            if (lifeController.Hp <= 0)
-            {
-                enemy.Die();
-            }
-        }
     }
 }
