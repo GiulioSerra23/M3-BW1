@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 2167677949
+    locked: 0
   - name: Bullet
     uniqueID: 1132899523
     locked: 0
