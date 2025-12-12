@@ -287,8 +287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16641fd8019339b448572cf744086552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHp: 100
-  _currentHp: 30
+  _maxHp: 50
+  _currentHp: 50
 --- !u!114 &2839809748901722042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: 
+  _weapon: {fileID: 6717317840486961854, guid: f0ffead4eb0304f4494e609d490dee80, type: 3}
   _pickupWeapons:
   - {fileID: 7633230914968282890, guid: 70feb4f8b0a06bc4d92b540f83f0f5a6, type: 3}
   - {fileID: 7633230914968282890, guid: 182c2168314299d4482b5a0056acf1c4, type: 3}
@@ -309,4 +310,4 @@ MonoBehaviour:
   - {fileID: 6159752034501435664, guid: 033123d52c070884793d7297fcdcebf5, type: 3}
   - {fileID: 7633230914968282890, guid: fb743351b80c1254884c4859b6444e86, type: 3}
   _speed: 4
-  _damage: 20
+  _damage: 50

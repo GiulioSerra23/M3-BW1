@@ -36,7 +36,7 @@ public class WeaponAutoTarget : Weapon
         GameObject nearestEnemy = FindNearestEnemy();
         if (nearestEnemy == null) return;
 
-        Vector2 direction = (nearestEnemy.transform.position - transform.position).normalized;
+        Vector2 direction = (nearestEnemy.transform.position - transform.parent.position).normalized;
 
         float offSet = 0.5f;
 
