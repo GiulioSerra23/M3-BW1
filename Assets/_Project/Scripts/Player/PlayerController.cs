@@ -8,10 +8,12 @@ public class PlayerController : Creature
 
     private float _horizontal;
     private float _vertical;
-    public Vector2 LastNonZeroDir { get; private set; } = new Vector2(0, -1);
+
     public bool IsDead { get => _isDead; }
 
     public Vector2 Direction { get; private set; }
+
+    public Vector2 LastNonZeroDir { get; private set; } = new Vector2(0, -1);
 
     private void Update()
     {

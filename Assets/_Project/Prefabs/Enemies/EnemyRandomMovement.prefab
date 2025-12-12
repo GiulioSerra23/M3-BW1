@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3823442205282655681}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1577878175082190397}
   - component: {fileID: 7455281990789888729}
   - component: {fileID: 3586825894772777822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,9 +164,9 @@ GameObject:
   - component: {fileID: 3150557634797940896}
   - component: {fileID: 3131991638096998188}
   - component: {fileID: 7431680533994540518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyRandomMovement
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5,6 +5,14 @@ using UnityEngine;
 
 public class EnemyFollower : Enemy
 {
+    private PlayerController _player;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        _player = FindObjectOfType<PlayerController>();
+    }
+
     protected override void EnemyMovement()
     {
         if (_player != null && !_isDead)

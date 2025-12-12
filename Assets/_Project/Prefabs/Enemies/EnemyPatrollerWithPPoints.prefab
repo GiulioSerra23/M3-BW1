@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287718078638884272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PatrolPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 69671972319970365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PatrolPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4691107644829180698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PatrolPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7509994263525537256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PatrolPoint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,9 +133,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8116156273352130101}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyPatrollerWithPPoints
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,10 +168,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8116156273352130101}
     m_Modifications:
-    - target: {fileID: 1448722612127921465, guid: bbe40c0e078b8cd418c4cd996a2d96c3, type: 3}
-      propertyPath: _patrolPoints.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 1448722612127921465, guid: bbe40c0e078b8cd418c4cd996a2d96c3, type: 3}
       propertyPath: _patrolPoints.Array.data[0]
       value: 

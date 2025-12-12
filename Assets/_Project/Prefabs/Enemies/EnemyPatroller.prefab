@@ -314,3 +314,5 @@ MonoBehaviour:
   _patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
