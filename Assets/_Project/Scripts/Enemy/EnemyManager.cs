@@ -10,7 +10,7 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private float _spawnTimer;
     [SerializeField] private int _maxEnemies;
 
-    private float timer;
+    private float _timer;
 
     public List<Enemy> Enemies { get => _enemies; private set => _enemies = value; }
 
@@ -36,12 +36,12 @@ public class EnemyManager : MonoBehaviour
     {
         if(_enemies.Count < _maxEnemies)
         {
-            timer += Time.deltaTime;
+            _timer += Time.deltaTime;
 
-            if (timer > _spawnTimer)
+            if (_timer > _spawnTimer)
             {
                 SpawnEnemy();
-                timer = 0;
+                _timer = 0;
             }
         }        
     }
