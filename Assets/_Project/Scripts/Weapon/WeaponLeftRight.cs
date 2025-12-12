@@ -7,15 +7,15 @@ public class WeaponLeftRight : Weapon
 
     public override void Fire()
     {
-        Vector2 targetPos = transform.parent.position;
+        float offSet = 0.5f;
 
         Bullet bulletLeft = Instantiate(_bulletPrefab, transform);
-        bulletLeft.transform.position = new Vector2(targetPos.x - 1, targetPos.y);
+        bulletLeft.transform.position = (Vector2)transform.parent.position + Vector2.left * offSet;
         bulletLeft.SetUp(Vector2.left);
 
 
         Bullet bulletRight = Instantiate(_bulletPrefab, transform);
-        bulletRight.transform.position = new Vector2(targetPos.x + 1, targetPos.y);
+        bulletRight.transform.position = (Vector2)transform.parent.position + Vector2.right * offSet;
         bulletRight.SetUp(Vector2.right);
     }
 }

@@ -12,10 +12,10 @@ public class BaseWeapon : Weapon
     }
     public override void Fire()
     {
-        Vector2 playerPos = transform.parent.position;
+        float offSet = 0.5f;
 
         Bullet bullet = Instantiate(_bulletPrefab, transform);
-        bullet.transform.position = transform.parent.position;
+        bullet.transform.position = (Vector2)transform.parent.position + _playerController.LastNonZeroDir * offSet;
         bullet.SetUp(_playerController.LastNonZeroDir);            
     }
 }
