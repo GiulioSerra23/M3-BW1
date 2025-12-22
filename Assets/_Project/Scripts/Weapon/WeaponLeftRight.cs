@@ -5,17 +5,17 @@ using UnityEngine;
 public class WeaponLeftRight : Weapon
 {
 
-    protected override void Fire()
+    public override void Fire()
     {
-        Vector2 playerPos = transform.parent.position;
+        float offSet = 0.5f;
 
         Bullet bulletLeft = Instantiate(_bulletPrefab, transform);
-        bulletLeft.transform.position = new Vector2(playerPos.x - 1, playerPos.y);
+        bulletLeft.transform.position = (Vector2)transform.parent.position + Vector2.left * offSet;
         bulletLeft.SetUp(Vector2.left);
 
 
         Bullet bulletRight = Instantiate(_bulletPrefab, transform);
-        bulletRight.transform.position = new Vector2(playerPos.x + 1, playerPos.y);
+        bulletRight.transform.position = (Vector2)transform.parent.position + Vector2.right * offSet;
         bulletRight.SetUp(Vector2.right);
     }
 }

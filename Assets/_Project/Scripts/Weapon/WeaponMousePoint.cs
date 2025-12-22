@@ -11,7 +11,7 @@ public class WeaponMousePoint : Weapon
         _cam = Camera.main;
     }
 
-    protected override void Fire()
+    public override void Fire()
     {
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = -_cam.transform.position.z;
@@ -20,8 +20,10 @@ public class WeaponMousePoint : Weapon
 
         Vector3 direction = (mouseWorldPos - transform.parent.position).normalized;
 
+        float offSet = 0.5f;
+
         Bullet clonedBullet = Instantiate(_bulletPrefab, transform);
-        clonedBullet.transform.position = transform.parent.position;
+        clonedBullet.transform.position = (Vector3)transform.parent.position + direction * offSet;
         clonedBullet.SetUp(direction);
     }
 }

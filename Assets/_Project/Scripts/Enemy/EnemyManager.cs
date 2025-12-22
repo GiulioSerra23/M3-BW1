@@ -5,12 +5,12 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     [SerializeField] private List<Enemy> _enemies;
-    [SerializeField] private Enemy[] _enemiesArr;
+    [SerializeField] private GameObject[] _enemiesArr;
     [SerializeField] private Transform[] _spawnpos;
     [SerializeField] private float _spawnTimer;
     [SerializeField] private int _maxEnemies;
 
-    private float timer;
+    private float _timer;
 
     public List<Enemy> Enemies { get => _enemies; private set => _enemies = value; }
 
@@ -27,7 +27,7 @@ public class EnemyManager : MonoBehaviour
     public void SpawnEnemy()
     {
         Transform spawnPoint = _spawnpos[Random.Range(0, _spawnpos.Length)];
-        Enemy enemySpawned = _enemiesArr[Random.Range(0, _enemiesArr.Length)];
+        GameObject enemySpawned = _enemiesArr[Random.Range(0, _enemiesArr.Length)];
 
         Instantiate(enemySpawned, spawnPoint);
     }
@@ -36,12 +36,12 @@ public class EnemyManager : MonoBehaviour
     {
         if(_enemies.Count < _maxEnemies)
         {
-            timer += Time.deltaTime;
+            _timer += Time.deltaTime;
 
-            if (timer > _spawnTimer)
+            if (_timer > _spawnTimer)
             {
                 SpawnEnemy();
-                timer = 0;
+                _timer = 0;
             }
         }        
     }

@@ -1,27 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class WeaponMultiShot : Weapon
 {
+    private PlayerController _player;
 
-    protected override void Fire()
+    protected void Awake()
     {
-        Vector2 playerPos = transform.parent.position;
-        Vector2 dirFL = new Vector2(-1,1);
-        Vector2 dirFR = new Vector2(1, 1);
+        _player = GetComponentInParent<PlayerController>();
+    }
+
+    public override void Fire()
+    {
+        Vector2 mainDir = _player.LastNonZeroDir;
+        Vector2 leftDir = Quaternion.Euler(0, 0, -20f) * mainDir;
+        Vector2 rightDir = Quaternion.Euler(0, 0, +20f) * mainDir;
+
+        float offSet = 0.5f;
 
         Bullet bulletF = Instantiate(_bulletPrefab, transform);
-        bulletF.transform.position = new Vector2(playerPos.x, playerPos.y);
-        bulletF.SetUp(Vector2.up);
-
+        bulletF.transform.position = (Vector2)transform.parent.position + mainDir * offSet;
+        bulletF.SetUp(mainDir);
 
         Bullet bulletFL = Instantiate(_bulletPrefab, transform);
-        bulletFL.transform.position = new Vector2(playerPos.x, playerPos.y);
-        bulletFL.SetUp(dirFL);
+        bulletFL.transform.position = (Vector2)transform.parent.position + leftDir * offSet;
+        bulletFL.SetUp(leftDir);
 
         Bullet bulletFR = Instantiate(_bulletPrefab, transform);
-        bulletFR.transform.position = new Vector2(playerPos.x, playerPos.y);
-        bulletFR.SetUp(dirFR);
+        bulletFR.transform.position = (Vector2)transform.parent.position + rightDir * offSet;
+        bulletFR.SetUp(rightDir);
     }
 }

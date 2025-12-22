@@ -5,6 +5,14 @@ using UnityEngine;
 
 public class EnemyFollower : Enemy
 {
+    private PlayerController _player;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        _player = FindObjectOfType<PlayerController>();
+    }
+
     protected override void EnemyMovement()
     {
         if (_player != null && !_isDead)
@@ -28,12 +36,6 @@ public class EnemyFollower : Enemy
                 _animHandler.SetIsMoving(false);
             }
         }
-    }
-
-    public override void Die()
-    {
-        base.Die();
-        Instantiate(_pickUpPrefab, transform.position, Quaternion.identity);
     }
 
     protected override void OnCollisionEnter2D(Collision2D collision)

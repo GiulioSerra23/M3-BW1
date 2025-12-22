@@ -5,17 +5,17 @@ using UnityEngine;
 public class WeaponUpDown : Weapon
 {
 
-    protected override void Fire()
+    public override void Fire()
     {
-        Vector2 playerPos = transform.parent.position;
+        float offSet = 0.5f;
 
         Bullet bulletUp = Instantiate(_bulletPrefab, transform);
-        bulletUp.transform.position = new Vector2(playerPos.x, playerPos.y + 1);
+        bulletUp.transform.position = (Vector2)transform.parent.position + Vector2.up * offSet;
         bulletUp.SetUp(Vector2.up);
 
 
         Bullet bulletDown = Instantiate(_bulletPrefab, transform);
-        bulletDown.transform.position = new Vector2(playerPos.x, playerPos.y - 1);
+        bulletDown.transform.position = (Vector2)transform.parent.position + Vector2.down * offSet;
         bulletDown.SetUp(Vector2.down);
     }
 }

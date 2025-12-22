@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7381115902867947501}
   - component: {fileID: 5373632408307384464}
   - component: {fileID: 1579334220297766831}
-  - component: {fileID: 4866471807761299485}
+  - component: {fileID: -7853620208006270489}
   m_Layer: 7
   m_Name: BulletMousePoint
   m_TagString: Untagged
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4622367418101556314}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.07, y: 1.42, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 1.1663, y: 1.421, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!212 &7381115902867947501
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 1132899523
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 18db4e4e27c42694a86f48e97338e52e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,7 +149,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4866471807761299485
+--- !u!114 &-7853620208006270489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4622367418101556314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 222169893d088d34fb79781a0050f74d, type: 3}
+  m_Script: {fileID: 11500000, guid: ba41628b55a50f34f8e4697acc6480b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 5
   _speed: 10
-  _lifeSpan: 10
+  _lifeSpan: 1

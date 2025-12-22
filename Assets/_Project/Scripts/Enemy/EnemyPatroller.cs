@@ -34,10 +34,4 @@ public class EnemyPatroller : Enemy
             _currentPatrolIndex = (_currentPatrolIndex + 1) % _patrolPoints.Length;
         }
     }
-    
-    public override void Die()
-    {
-        base.Die();
-        Instantiate(_pickUpPrefab, transform.position, Quaternion.identity);
-    }
 }

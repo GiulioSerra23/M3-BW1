@@ -31,15 +31,17 @@ public class WeaponAutoTarget : Weapon
         return nearestEnemy;
     }
 
-    protected override void Fire()
+    public override void Fire()
     {
         GameObject nearestEnemy = FindNearestEnemy();
         if (nearestEnemy == null) return;
 
-        Vector2 direction = (nearestEnemy.transform.position - transform.position).normalized;
+        Vector2 direction = (nearestEnemy.transform.position - transform.parent.position).normalized;
+
+        float offSet = 0.5f;
 
         Bullet clonedBullet = Instantiate(_bulletPrefab, transform);
-        clonedBullet.transform.position = transform.parent.position;
+        clonedBullet.transform.position = (Vector2)transform.parent.position + direction * offSet;
         clonedBullet.SetUp(direction);
     }
 }

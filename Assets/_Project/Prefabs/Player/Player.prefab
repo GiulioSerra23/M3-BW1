@@ -260,8 +260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16641fd8019339b448572cf744086552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHp: 100
-  _currentHp: 30
+  _maxHp: 500
+  _currentHp: 150
 --- !u!114 &4723503330801308003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af4ad2f98f7c184f9cb61b701405246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _equippedWeapon: {fileID: 5214601090090551679, guid: 104b471876f619a44a2056f54e482b76, type: 3}
 --- !u!1 &3456439917241407382
 GameObject:
   m_ObjectHideFlags: 0

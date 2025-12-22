@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2012583732797606738}
   - component: {fileID: 4523181427829801771}
   - component: {fileID: 6838065478560701383}
-  - component: {fileID: 3036354729819695934}
   - component: {fileID: 7633230914968282890}
+  - component: {fileID: 3036354729819695934}
   m_Layer: 0
   m_Name: WeaponUpDown-PickUp
   m_TagString: Untagged
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 0.74028945, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 3bc0706b55733dc44adfc84d09b29fc4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -122,6 +122,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
+--- !u!114 &7633230914968282890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543401580059769554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac866cdda849ad246b243f20c285a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lifeSpan: 20
 --- !u!114 &3036354729819695934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,15 +148,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _weapon: {fileID: 1177441127172128489, guid: 3f6aba7f8042ed34b860836c0efbcdca, type: 3}
---- !u!114 &7633230914968282890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4543401580059769554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac866cdda849ad246b243f20c285a245, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
